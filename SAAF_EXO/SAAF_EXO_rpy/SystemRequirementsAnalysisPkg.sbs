@@ -1,0 +1,58 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID ba3adecd-1c06-48fb-b099-01221bdd40bc;
+	- _myState = 8192;
+	- _name = "SystemRequirementsAnalysisPkg";
+	- _modifiedTimeWeak = 6.4.2017::18:46:15;
+	- EmbededFiles = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IEmbededFile 
+			- _id = GUID f8514824-c2fd-45a0-b3f3-e4982315b8fb;
+			- _name = "SAAF_Exigences_CorrectionJYB_V1.0 importable.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\SAAF_EXO_rpy\\SAAF_Exigences_CorrectionJYB_V1.0 importable.docx";
+		}
+	}
+	- _lastID = 1;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ISubsystem 
+			- fileName = "RequirementsPkg";
+			- _id = GUID 3ede1006-c1cc-49bf-b7a6-339f7e98517d;
+		}
+		{ ISubsystem 
+			- fileName = "UseCaseDiagramsPkg";
+			- _id = GUID 8ba5ca59-0b8e-4273-8b32-a17f9efdff68;
+		}
+		{ ISubsystem 
+			- fileName = "SAAF_Exigences_CorrectionJYB_V1_0_importable";
+			- _id = GUID 057b8a32-8a2d-48b9-bdb5-723ae3557d39;
+		}
+	}
+	- weakCGTime = 6.4.2017::18:46:15;
+	- strongCGTime = 6.4.2017::18:21:20;
+	- _defaultComposite = GUID 2a9d66eb-ad4a-4f44-bd4d-fa27065bd6c1;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 2a9d66eb-ad4a-4f44-bd4d-fa27065bd6c1;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 6.4.2017::18:21:20;
+			- weakCGTime = 6.4.2017::18:21:20;
+			- strongCGTime = 6.4.2017::18:21:20;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 6.4.2017::18:21:39;
+}
+

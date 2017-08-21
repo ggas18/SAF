@@ -1,0 +1,307 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "EchangerFeutresPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "EchangerFeutresPkg";
+		- _id = GUID 0e15dd4b-e7c1-4aec-a4e9-885533d8e974;
+	}
+	- _id = GUID 2df40fc6-41c8-49c6-a360-5b1f3e9e7247;
+	- _myState = 8192;
+	- _name = "EchangerFeutresExecutionScopePkg";
+	- _modifiedTimeWeak = 6.7.2017::20:48:4;
+	- weakCGTime = 6.7.2017::20:48:28;
+	- strongCGTime = 6.7.2017::20:48:28;
+	- _defaultComposite = GUID 45c43a98-5801-4b48-8930-fbe4ed3ff714;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 45c43a98-5801-4b48-8930-fbe4ed3ff714;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 6.7.2017::20:48:28;
+			- _lastID = 4;
+			- weakCGTime = 6.7.2017::20:48:28;
+			- strongCGTime = 6.7.2017::19:39:51;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IPart 
+					- _id = GUID fc9ddfea-24c3-47fe-a115-beba63e35813;
+					- _myState = 8192;
+					- _name = "itsUc_EchangerFeutres";
+					- _modifiedTimeWeak = 6.7.2017::19:39:51;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "EchangerFeutresPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+						- _class = "";
+						- _name = "Uc_EchangerFeutres";
+						- _id = GUID 74b24050-8e84-4c6c-b352-d27e1a8f1ced;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 603bf37a-6b09-42c6-b3b3-f98394c02bc5;
+					- _myState = 8192;
+					- _name = "prtenseignant";
+					- _modifiedTimeWeak = 6.7.2017::19:39:51;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "enseignant";
+						- _id = GUID ce92bf34-a678-41e8-970f-73a61a585c90;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 38024ec3-6de6-4342-81d8-b3b59a24ac7b;
+					- _myState = 8192;
+					- _name = "prtsecretaire";
+					- _modifiedTimeWeak = 6.7.2017::19:39:51;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "secretaire";
+						- _id = GUID 4da2c91b-05a2-418e-82bf-02d50bd8f949;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 3abbe751-a9be-404c-8f2e-6962985d58b0;
+					- _myState = 8192;
+					- _name = "prtfeutre";
+					- _modifiedTimeWeak = 6.7.2017::19:39:51;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "feutre";
+						- _id = GUID 5f3a1b6f-0002-4342-8c62-f038a625f720;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- ObjectLinks = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IObjectLink 
+					- _id = GUID f49c536e-c882-45fc-a921-8318481139d8;
+					- _myState = 10240;
+					- _name = "connector_0";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _modifiedTimeWeak = 6.7.2017::20:48:4;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID fc9ddfea-24c3-47fe-a115-beba63e35813;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 603bf37a-6b09-42c6-b3b3-f98394c02bc5;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "EchangerFeutresPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+						- _class = "Uc_EchangerFeutres";
+						- _name = "penseignant";
+						- _id = GUID af977616-89da-4e1f-8a83-b9db5457c2b3;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "enseignant";
+						- _name = "pUc_EchangerFeutres";
+						- _id = GUID 1a9dcf50-3cad-45c4-a836-ac2d2f42c8f6;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID ee6c170a-31a2-47ba-8464-36ad604d5315;
+					- _myState = 10240;
+					- _name = "connector_1";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _modifiedTimeWeak = 6.7.2017::20:48:11;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID fc9ddfea-24c3-47fe-a115-beba63e35813;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 603bf37a-6b09-42c6-b3b3-f98394c02bc5;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "EchangerFeutresPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+						- _class = "Uc_EchangerFeutres";
+						- _name = "penseignant";
+						- _id = GUID af977616-89da-4e1f-8a83-b9db5457c2b3;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "enseignant";
+						- _name = "pUc_CommanderFeutres";
+						- _id = GUID 88507fa0-b6d5-484f-8fb0-127111a90ef3;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID 561b33dc-16bf-49aa-b573-5f475fb2830e;
+					- _myState = 10240;
+					- _name = "connector_2";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _modifiedTimeWeak = 6.7.2017::20:48:21;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID fc9ddfea-24c3-47fe-a115-beba63e35813;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 38024ec3-6de6-4342-81d8-b3b59a24ac7b;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "EchangerFeutresPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+						- _class = "Uc_EchangerFeutres";
+						- _name = "psecretaire";
+						- _id = GUID c2cb9954-2fc7-4c67-b4be-9dadfd797071;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "secretaire";
+						- _name = "pUc_CommanderFeutres";
+						- _id = GUID cb0b439a-299d-4fab-8144-7de53be81860;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID bb879e5f-1f88-4d01-a3db-7dbf4c881466;
+					- _myState = 10240;
+					- _name = "connector_3";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _modifiedTimeWeak = 6.7.2017::20:48:28;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID fc9ddfea-24c3-47fe-a115-beba63e35813;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 38024ec3-6de6-4342-81d8-b3b59a24ac7b;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "EchangerFeutresPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+						- _class = "Uc_EchangerFeutres";
+						- _name = "psecretaire";
+						- _id = GUID c2cb9954-2fc7-4c67-b4be-9dadfd797071;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "secretaire";
+						- _name = "pUc_EchangerFeutres";
+						- _id = GUID ac9dc459-ee7d-4beb-820f-59f9326f05db;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 6.7.2017::19:39:51;
+}
+

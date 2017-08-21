@@ -1,0 +1,14 @@
+[Op Calls]
+[Events]
+itsUc_CommanderFeutres->GEN(reqCommande())`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repDechargementFournitureUsagee())`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repChargementFournitureUsagee())`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repFournitureUsagee(1))`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repChargementFourniture())`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repFournitureUsagee())`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repFournitureUsagee(0))`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repDechargementFourniture())`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repFournitureUsagee(true))`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repFournitureUsagee(aaaaa))`Uc_CommanderFeutres
+itsUc_CommanderFeutres->GEN(repFournitureUsagee(aaaa))`Uc_CommanderFeutres
+[Breakpoints]

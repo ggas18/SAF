@@ -1,0 +1,56 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID d3ad0dc5-4ae9-47c5-8dc4-7dcd190fbaa5;
+	- _myState = 8192;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 1;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CPP_CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Type";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "GenerateSerializationFunctions";
+								- _Value = "SerializationAndUnserialization";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "SerializationAndUnserialization,SerializationOnly,None";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "TypesPkg";
+	- _modifiedTimeWeak = 6.4.2017::18:19:13;
+	- weakCGTime = 6.4.2017::18:19:13;
+	- strongCGTime = 6.4.2017::18:19:13;
+	- _defaultComposite = GUID 4ec5e946-55c9-4c51-b725-39c50f6b46e3;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 4ec5e946-55c9-4c51-b725-39c50f6b46e3;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

@@ -1,0 +1,573 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "SystemRequirementsAnalysisPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "SystemRequirementsAnalysisPkg";
+		- _id = GUID ba3adecd-1c06-48fb-b099-01221bdd40bc;
+	}
+	- _id = GUID 057b8a32-8a2d-48b9-bdb5-723ae3557d39;
+	- _myState = 8192;
+	- _name = "SAAF_Exigences_CorrectionJYB_V1_0_importable";
+	- _displayName = "SAAF_Exigences_CorrectionJYB_V1.0 importable";
+	- Stereotypes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IStereotype";
+			- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+		}
+	}
+	- Annotations = { IRPYRawContainer 
+		- size = 23;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 9a5027e7-3559-4d35-9efe-e7d4b76f2ffb;
+			- _myState = 8192;
+			- _name = "EF0 - Mettre a la disposition des enseignants des feutres pour tableau blanc";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pour mieux satisfaire ses clients, l'AIPL souhaite mettre en place un nouveau service de mise \\'e0 la disposition des enseignants des feutres pour tableau blanc.\\par
+}
+";
+			- reqID = "EF0";
+		}
+		{ IRequirement 
+			- _id = GUID 3d8573a9-448f-4098-b16b-3918f18f0a55;
+			- _myState = 8192;
+			- _name = "EF1 - Approvisionner des feutres en autonomie";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Au sein de l'AIP Lorrain, \\'e0 la demande des enseignants, un syst\\'e8me autonome approvisionne des feutres en utilisant un transporteur.\\par
+}
+";
+			- reqID = "EF1";
+		}
+		{ IRequirement 
+			- _id = GUID 8e884fea-93d6-42c7-9dcb-b562da33b01d;
+			- _myState = 8192;
+			- _name = "EF11 - Echanger des feutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 1.\\tab L'enseignant fait une demande d'\\'e9change de feutre(s) ;\\par
+2.\\tab La secr\\'e9taire est pr\\'e9venue de la demande d'\\'e9change ;\\par
+3.\\tab Le transporteur se d\\'e9place vers la salle de l'enseignant ;\\par
+4.\\tab L'enseignant d\\'e9pose les feutres usag\\'e9s sur le transporteur ;\\par
+5.\\tab Le transporteur se d\\'e9place \\'e0 l'accueil de l'AIPL ;\\par
+6.\\tab La secr\\'e9taire \\'e9change les feutres sur le transporteur ;\\par
+7.\\tab Le transporteur se d\\'e9place vers la salle de l'enseignant ;\\par
+8.\\tab L'enseignant prend les nouveaux feutres ;\\par
+9.\\tab Le transporteur lib\\'e8re la zone.\\par
+}
+";
+			- reqID = "EF11";
+		}
+		{ IRequirement 
+			- _id = GUID ae89a513-f4f4-4c29-906e-e631403e9b18;
+			- _myState = 8192;
+			- _name = "EF12 - Commander des feutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 1.\\tab L'enseignant saisit sa commande de feutre(s) ;\\par
+2.\\tab La secr\\'e9taire est pr\\'e9venue de la nouvelle commande ;\\par
+3.\\tab Le transporteur se d\\'e9place \\'e0 l'accueil de l'AIPL ;\\par
+4.\\tab La secr\\'e9taire charge les feutres command\\'e9s sur le transporteur ;\\par
+5.\\tab Le transporteur se d\\'e9place vers la salle de l'enseignant ;\\par
+6.\\tab L'enseignant prend les nouveaux feutres ;\\par
+7.\\tab Si n\\'e9cessaire (feutres usag\\'e9s \\'e0 retourner) :\\par
+a.\\tab L'enseignant d\\'e9pose des feutres usag\\'e9s sur le transporteur ;\\par
+b.\\tab Le transporteur se d\\'e9place \\'e0 l'accueil de l'AIPL ;\\par
+c.\\tab La secr\\'e9taire r\\'e9cup\\'e8re les feutres usag\\'e9s sur le transporteur ;\\par
+8.\\tab Le transporteur lib\\'e8re la zone.\\par
+}
+";
+			- reqID = "EF12";
+		}
+		{ IRequirement 
+			- _id = GUID fb42223a-69d4-46e6-bae6-62eb7ebd6094;
+			- _myState = 8192;
+			- _name = "EF13 - G\érer les stocks de feutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La secr\\'e9taire peut au choix :\\par
+1.\\tab Rentrer des feutres en stock (achat ou reconditionnement de feutre) : la secr\\'e9taire indique le nombre de feutres disponibles pour chaque couleur.\\par
+2.\\tab Sortir des feutres du stock (destruction ou mise \\'e0 disposition des enseignants) : la secr\\'e9taire indique le nombre de feutres retir\\'e9s du stock pour chaque couleur.\\par
+3.\\tab Consulter l'\\'e9tat du stock : la secr\\'e9taire consulte le stock de feutres pour chaque couleur.\\par
+4.\\tab Editer un \\'e9tat du stock : la secr\\'e9taire \\'e9dite dans un fichier \\'ab texte \\'bb l'\\'e9tat du stock \\'e0 a date d'\\'e9dition.\\par
+5.\\tab R\\'e9aliser l'inventaire du stock : la secr\\'e9taire fait l'inventaire des stocks (les diff\\'e9rences \\'e9ventuelles sont enregistr\\'e9es).\\par
+}
+";
+			- reqID = "EF13";
+		}
+		{ IRequirement 
+			- _id = GUID f0fb4648-c72c-4362-96c5-695e9c5bff2f;
+			- _myState = 8192;
+			- _name = "EI1 - Porter les feutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le transporteur est \\'e9quip\\'e9 pour porter les feutres en assurant leur int\\'e9grit\\'e9.\\par
+}
+";
+			- reqID = "EI1";
+		}
+		{ IRequirement 
+			- _id = GUID 40f2a38b-95bf-4a80-8616-745c5f5de195;
+			- _myState = 8192;
+			- _name = "EI2 - Disposer d_une interface intuitive pour l_enseignant";
+			- _displayName = "EI2 - Disposer d'une interface intuitive pour l'enseignant";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 L'enseignant dispose d'une interface simple et intuitive pour faire ses demandes \\'e0 partir des postes informatiques.\\par
+}
+";
+			- reqID = "EI2";
+		}
+		{ IRequirement 
+			- _id = GUID 78a0cac2-36ba-4517-b7d5-77d5d1f787bb;
+			- _myState = 8192;
+			- _name = "EI3 - Disposer d_une interface intuitive pour la secr\étaire";
+			- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 EI3 - Disposer d'une interface intuitive pour la secr\\'e9taire\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La secr\\'e9taire dispose sur son poste informatique d'une interface simple et intuitive pour prendre en compte les demandes et assurer la gestion des stocks.\\par
+}
+";
+			- reqID = "EI3";
+		}
+		{ IRequirement 
+			- _id = GUID 1c164388-fd37-4708-a6b3-067ddbf49eb7;
+			- _myState = 8192;
+			- _name = "EI4 - Evoluer au sein de l_AIP Lorrain";
+			- _displayName = "EI4 - Evoluer au sein de l'AIP Lorrain";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le transporteur est \\'e9quip\\'e9 pour \\'e9voluer au rez-de-chauss\\'e9e de l'AIP Lorrain en assurant l'int\\'e9grit\\'e9 des biens et des personnes.\\par
+}
+";
+			- reqID = "EI4";
+		}
+		{ IRequirement 
+			- _id = GUID 058761a4-bef5-423a-a4f7-5cbf64cb344d;
+			- _myState = 8192;
+			- _name = "EO1 - R\épondre aux demandes en FIFO";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Les services sont rendus dans l'ordre d'arriv\\'e9e des demandes en mode FIFO. Cf. Etats du syst\\'e8me.\\par
+}
+";
+			- reqID = "EO1";
+		}
+		{ IRequirement 
+			- _id = GUID d89a1b70-9f82-4bc8-aa11-f9091a62cec3;
+			- _myState = 8192;
+			- _name = "EO2 - Pr\évenir si le service ne peut \être rendu";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pr\\'e9venir si le service ne peut \\'eatre rendu (transporteur ou feutre non disponible, ... ). Cf. Acquittement des demandes.\\par
+}
+";
+			- reqID = "EO2";
+		}
+		{ IRequirement 
+			- _id = GUID 0c629c61-44b2-4cac-992b-d99ddf409400;
+			- _myState = 8192;
+			- _name = "EO3 - Parall\éliser la gestion des stocks";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La gestion des stocks peut \\'eatre r\\'e9alis\\'e9e en m\\'eame temps que les approvisionnements de feutres. Cf; Etats du syst\\'e8me\\par
+}
+";
+			- reqID = "EO3";
+		}
+		{ IRequirement 
+			- _id = GUID d36b755f-1a8b-4ef2-98ac-514417eda7f1;
+			- _myState = 8192;
+			- _name = "EP1 - Rendre le service en moins de 5 minutes";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Lorsque le Patrobot est disponible, le service d'\\'e9change ou de commande est rendu en moins de 5 minutes,\\par
+}
+";
+			- reqID = "EP1";
+		}
+		{ IRequirement 
+			- _id = GUID 34a42847-621b-400f-853b-7296678dca8c;
+			- _myState = 8192;
+			- _name = "EP2 - Mettre \à jour les stocks en moins de 2 minutes";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Une mise \\'e0 jour des stocks par la secr\\'e9taire est r\\'e9alis\\'e9e en moins de 2 minutes.\\par
+}
+";
+			- reqID = "EP2";
+		}
+		{ IRequirement 
+			- _id = GUID ee89209d-2c9a-4942-9ea4-9c15eb05aa04;
+			- _myState = 8192;
+			- _name = "EC1 - Utiliser la base robotique mobile PatrolBot";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "Le transporteur devra utiliser la base robotique mobile PatrolBot.";
+			- reqID = "EC1";
+		}
+		{ IRequirement 
+			- _id = GUID 76a1cddb-ae55-4cb6-a071-e6a726a22f7c;
+			- _myState = 8192;
+			- _name = "EC2 - Fournir la documentation d utilisation";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La documentation n\\'e9cessaire pour un usage simple du syst\\'e8me est fournie.\\par
+}
+";
+			- reqID = "EC2";
+		}
+		{ IRequirement 
+			- _id = GUID 31cd2c76-e4ac-4ee9-adbf-7deefe594d37;
+			- _myState = 8192;
+			- _name = "EC3 - Op\érer durant les heures d_ouverture";
+			- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 EC3 - Op\\'e9rer durant les heures d'ouverture\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le syst\\'e8me doit \\'eatre op\\'e9rationnel aux heures d'ouverture de l'AIP Lorrain dans le cadre des r\\'e9servations ADE.\\par
+}
+";
+			- reqID = "EC3";
+		}
+		{ IRequirement 
+			- _id = GUID ea1515c4-0542-4e88-9ad6-3723665ede4d;
+			- _myState = 8192;
+			- _name = "EC4 - Fournir la documentation pour le soutien";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La documentation n\\'e9cessaire au soutien (maintenance, ...) est fournie.\\par
+}
+";
+			- reqID = "EC4";
+		}
+		{ IRequirement 
+			- _id = GUID a3b8fc0f-0e3d-481e-b788-c4ae3912e0a5;
+			- _myState = 8192;
+			- _name = "EC5 - Utiliser l outil de mod\élisation MEGA";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Lors de la conception et du d\\'e9veloppement du syst\\'e8me, l'outil MEGA sera utilis\\'e9 (mod\\'e9lisation UML2). Cf. PP Enseignants MISC.\\par
+}
+";
+			- reqID = "EC5";
+		}
+		{ IRequirement 
+			- _id = GUID de229ebf-3b57-4b74-9d30-0336b3d154c4;
+			- _myState = 8192;
+			- _name = "EC6 - D\évelopper en langage C++";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pour les d\\'e9veloppements informatiques, le langage C++ est utilis\\'e9. Cf. PP Enseignants MISC.\\par
+}
+";
+			- reqID = "EC6";
+		}
+		{ IRequirement 
+			- _id = GUID 1858bd0d-bcee-429a-a25b-0cce45deb94b;
+			- _myState = 8192;
+			- _name = "EC7 - Respecter la norme ISO13482";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La norme ISO13482 \"Robots et composants robotiques - Exigences de s\\'e9curit\\'e9 - Robots non m\\'e9dicaux pour les soins personnels\" sp\\'e9cifie les exigences et les recommandations pour la pr\\'e9vention intrins\\'e8que, ainsi que des mesures de protection et des informations pour l'utilisation des robots d'assistance \\'e0 la personne. Cf. AFNOR\\par
+}
+";
+			- reqID = "EC7";
+		}
+		{ IRequirement 
+			- _id = GUID 714a9796-5d93-4d2a-9efc-ef345e42efaa;
+			- _myState = 8192;
+			- _name = "EC8 - Utiliser les postes informatiques des salles";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 R\\'e9aliser les demandes d'\\'e9change ou de commande \\'e0 partir des postes informatiques disponibles dans les salles de cours.\\par
+}
+";
+			- reqID = "EC8";
+		}
+		{ IRequirement 
+			- _id = GUID 73b81a1e-3e3c-4f4a-a212-631be1f7e23f;
+			- _myState = 8192;
+			- _name = "EC9 - Utiliser le poste informatique de la secr\étaire";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Utiliser le poste informatique disponible \\'e0 l'accueil pour les activit\\'e9s de la secr\\'e9taire.\\par
+}
+";
+			- reqID = "EC9";
+		}
+	}
+	- _modifiedTimeWeak = 6.4.2017::18:46:15;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+			- _myState = 8192;
+			- _name = "fromWord";
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 5;
+				- value = "Requirement"; "Dependency"; "Package"; "HyperLink"; "Type"; 
+			}
+		}
+	}
+	- weakCGTime = 6.4.2017::18:46:15;
+	- strongCGTime = 6.4.2017::18:46:15;
+	- _defaultComposite = GUID 4db40fdf-c059-47ad-a328-e9c5c1b373f7;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 4db40fdf-c059-47ad-a328-e9c5c1b373f7;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID 44b257ca-74c2-494c-aeb7-45c44397a2b3;
+			- _myState = 8192;
+			- _name = "Word_Priority";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 59b83f66-9fee-4247-8d01-3753e57af0d3;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:46:15;
+			- Literals = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IEnumerationLiteral 
+					- _id = GUID f872b842-4bf1-4bf6-a8d2-4bfdf9a463b0;
+					- _name = "High";
+					- _modifiedTimeWeak = 6.4.2017::18:46:15;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 29bb42f9-f2f0-458c-bb1e-ccb7a3579685;
+					- _name = "Medium";
+					- _modifiedTimeWeak = 6.4.2017::18:46:15;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID aa743feb-0a06-40bb-a4dc-7b8ee1a27cd2;
+					- _name = "Low";
+					- _modifiedTimeWeak = 6.4.2017::18:46:15;
+					- _value = "";
+				}
+			}
+			- _kind = Enumeration;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

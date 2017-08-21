@@ -1,0 +1,88 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 156;
+				- m_nTop = 156;
+				- m_nRight = 1031;
+				- m_nBottom = 488;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "CommanderFeutresPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+				- _class = "Uc_CommanderFeutres";
+				- _name = "StatechartDiagram";
+				- _id = GUID 9dafbd58-a3aa-45cb-9881-9d0df6baefa9;
+			}
+			- _UpLeft = 0 1191 ;
+			- _DownRight = 1010 1658 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+	}
+	- _fullName = "D:\\Windows10\\Documents\\IS\\SAAF_Seq\\SAAF";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+
+	- tableMatrixColWidth = {
+		count=1;
+		{ - TableMatrixView
+			id=3a9a89d0-dcf8-4d86-9fad-3db6176106f8;
+			colwidth=;422;343;224;231;273;357;196;434;441;294;343;371;336;322;350;;
+		}
+	}
+
+
+	- tableMatrixRowAdditionHight = {
+		count=2;
+		{ - TableMatrixView
+			id=be0c2c8e-a3cc-454a-94d6-e7c2a2fc1ce4;
+			rowAdditionalHight=;
+		}
+		{ - TableMatrixView
+			id=3a9a89d0-dcf8-4d86-9fad-3db6176106f8;
+			rowAdditionalHight=onalHight=onalHight=;726a45ec-8ba4-484b-aa25-dcf75b222e06,1;259bb984-59d2-4913-bed2-9528e2366909,0;523a9dcb-fa88-4247-a22a-47829e2cbca5,0;2b436554-b7b1-454c-85a6-d9cc945b3d9f,0;82583262-fe30-4fec-8faa-0e1355bb2da1,0;;
+		}
+	}
+
+	- mapOslcRmActiveCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+}
+

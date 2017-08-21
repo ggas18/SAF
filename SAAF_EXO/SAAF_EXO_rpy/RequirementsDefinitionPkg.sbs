@@ -1,0 +1,49 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID 3b403c0e-cee5-4cf5-b424-60b24110e4f2;
+	- _myState = 8192;
+	- _name = "RequirementsDefinitionPkg";
+	- _modifiedTimeWeak = 6.4.2017::18:38:23;
+	- EmbededFiles = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IEmbededFile 
+			- _id = GUID f771e83e-716f-4080-b061-282320922ccd;
+			- _name = "SAAF_Besoins_Correction JYB_V1.1_importable.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\SAAF_EXO_rpy\\SAAF_Besoins_Correction JYB_V1.1_importable.docx";
+		}
+	}
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ISubsystem 
+			- fileName = "SAAF_Besoins_Correction_JYB_V1_1_importable";
+			- _id = GUID d2de1d29-1f98-4659-bf0f-6d18e6fa2056;
+		}
+	}
+	- weakCGTime = 6.4.2017::18:38:23;
+	- strongCGTime = 6.4.2017::18:21:47;
+	- _defaultComposite = GUID f75ae1ee-6c17-4350-8b8f-a28bac7fa970;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID f75ae1ee-6c17-4350-8b8f-a28bac7fa970;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

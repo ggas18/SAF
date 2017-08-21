@@ -1,0 +1,392 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "RequirementsDefinitionPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "RequirementsDefinitionPkg";
+		- _id = GUID 3b403c0e-cee5-4cf5-b424-60b24110e4f2;
+	}
+	- _id = GUID d2de1d29-1f98-4659-bf0f-6d18e6fa2056;
+	- _myState = 8192;
+	- _name = "SAAF_Besoins_Correction_JYB_V1_1_importable";
+	- _displayName = "SAAF_Besoins_Correction JYB_V1.1_importable";
+	- Stereotypes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IStereotype";
+			- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+		}
+	}
+	- Annotations = { IRPYRawContainer 
+		- size = 15;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 8f3f8215-cb20-4590-b146-4402dd3834e3;
+			- _myState = 8192;
+			- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pour mieux satisfaire ses clients, l'AIPL souhaite mettre en place un nouveau service de mise \\'e0 disposition des enseignants de feutre pour tableau blanc.\\par
+}
+";
+			- reqID = "BS0";
+		}
+		{ IRequirement 
+			- _id = GUID f5c96f8d-64ca-48f3-9938-60d35851e218;
+			- _myState = 8192;
+			- _name = "BS1 - Approvisionner des feutres en autonomie";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Au sein de l'AIP Lorrain, \\'e0 la demande des enseignants, un syst\\'e8me autonome approvisionne des feutres en utilisant un transporteur.\\par
+}
+";
+			- reqID = "BS1";
+		}
+		{ IRequirement 
+			- _id = GUID 76a1d8ae-7514-414d-ac16-a03c9289a698;
+			- _myState = 8192;
+			- _name = "BS1.1 - \Échanger des feutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Cf. CU \\'c9changer des feutres\\par
+}
+";
+			- reqID = "BS1.1";
+		}
+		{ IRequirement 
+			- _id = GUID a173124a-94ec-4829-8310-ab877788ee5c;
+			- _myState = 8192;
+			- _name = "BS1.2 - Commander des feutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "Cf. CU Commander des feutres";
+			- reqID = "BS1.2";
+		}
+		{ IRequirement 
+			- _id = GUID 94f507be-e3e1-4f35-8d8d-0cbbe1e40b2e;
+			- _myState = 8192;
+			- _name = "BO1 - R\épondre aux demandes en FIFO";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Les services sont rendus dans l'ordre d'arriv\\'e9e des demandes en mode FIFO.\\par
+}
+";
+			- reqID = "BO1";
+		}
+		{ IRequirement 
+			- _id = GUID 5b7c26cb-25cb-4d8b-9749-7118cb7a1f62;
+			- _myState = 8192;
+			- _name = "BO2 - Pr\évenir si le service ne peut \être rendu";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pr\\'e9venir si le service ne peut \\'eatre rendu (transporteur ou feutre non disponible, ...).\\par
+}
+";
+			- reqID = "BO2";
+		}
+		{ IRequirement 
+			- _id = GUID b3a010b2-e265-460a-a2e8-e9e87cdecfd9;
+			- _myState = 8192;
+			- _name = "BI1 - Porter les feutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le transporteur est \\'e9quip\\'e9 pour porter les feutres en assurant leur int\\'e9grit\\'e9.\\par
+}
+";
+			- reqID = "BI1";
+		}
+		{ IRequirement 
+			- _id = GUID a2f3930a-1a73-4223-9efd-ce0cf27ff01a;
+			- _myState = 8192;
+			- _name = "BI2 - Disposer d_une interface intuitive pour l_enseignant";
+			- _displayName = "BI2 - Disposer d'une interface intuitive pour l'enseignant";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "L'enseignant dispose d'une interface simple et intuitive pour faire ses demandes.";
+			- reqID = "BI2";
+		}
+		{ IRequirement 
+			- _id = GUID 794f1560-35be-45e7-9a5c-ca75fec81358;
+			- _myState = 8192;
+			- _name = "BI3 - Disposer d_une interface intuitive pour la secr\étaire";
+			- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 BI3 - Disposer d'une interface intuitive pour la secr\\'e9taire\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:24;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La secr\\'e9taire dispose d'une interface simple et intuitive pour prendre en compte les demandes.\\par
+}
+";
+			- reqID = "BI3";
+		}
+		{ IRequirement 
+			- _id = GUID 84727a50-bfba-4ffb-b419-d92eb73db6f0;
+			- _myState = 8192;
+			- _name = "BI4 - Evoluer au sein de l_AIP Lorrain";
+			- _displayName = "BI4 - Evoluer au sein de l'AIP Lorrain";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le transporteur est \\'e9quip\\'e9 pour \\'e9voluer au rez-de-chauss\\'e9e de l'AIP Lorrain en assurant l'int\\'e9grit\\'e9 des biens et des personnes.\\par
+}
+";
+			- reqID = "BI4";
+		}
+		{ IRequirement 
+			- _id = GUID 35d918de-04b7-4f7e-8e11-2d9cd43d7ccc;
+			- _myState = 8192;
+			- _name = "BP1 - Rendre le service en moins de 5 minutes";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Lorsque le Patrobot est disponible, le service d'\\'e9change ou de commande est rendu en moins de 5 minutes,\\par
+}
+";
+			- reqID = "BP1";
+		}
+		{ IRequirement 
+			- _id = GUID 0532f0d7-947b-41f9-8033-f4241a16e2dd;
+			- _myState = 8192;
+			- _name = "BC1 - Utiliser la base robotique mobile PatrolBot";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "Le transporteur devra utiliser la base robotique mobile PatrolBot.";
+			- reqID = "BC1";
+		}
+		{ IRequirement 
+			- _id = GUID 66697a73-9e9f-4d13-8590-58185fededbb;
+			- _myState = 8192;
+			- _name = "BC2 - Fournir la documentation d utilisation";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La documentation n\\'e9cessaire pour un usage simple du syst\\'e8me est fournie.\\par
+}
+";
+			- reqID = "BC2";
+		}
+		{ IRequirement 
+			- _id = GUID 20e28c97-fadf-4fa8-ae6c-207b9735fc5d;
+			- _myState = 8192;
+			- _name = "BC3 - Op\érer durant les heures d_ouverture";
+			- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 BC3 - Op\\'e9rer durant les heures d'ouverture\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:24;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le syst\\'e8me doit \\'eatre op\\'e9rationnel aux heures d'ouverture de l'AIP Lorrain dans le cadre des r\\'e9servations ADE.\\par
+}
+";
+			- reqID = "BC3";
+		}
+		{ IRequirement 
+			- _id = GUID 0a06d7a0-4f1f-4bbf-b58c-b420c84f0957;
+			- _myState = 8192;
+			- _name = "BC4 - Fournir la documentation pour le soutien";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La documentation n\\'e9cessaire au soutien (maintenance, ...) est fournie.\\par
+}
+";
+			- reqID = "BC4";
+		}
+	}
+	- _modifiedTimeWeak = 6.4.2017::18:38:24;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+			- _myState = 8192;
+			- _name = "fromWord";
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 5;
+				- value = "Requirement"; "Dependency"; "Package"; "HyperLink"; "Type"; 
+			}
+		}
+	}
+	- weakCGTime = 6.4.2017::18:38:24;
+	- strongCGTime = 6.4.2017::18:38:23;
+	- _defaultComposite = GUID c36177f5-6131-4e9b-bc42-70d31b03cb5e;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID c36177f5-6131-4e9b-bc42-70d31b03cb5e;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID 89352647-89ef-472a-8119-5bd671c7457d;
+			- _myState = 8192;
+			- _name = "Word_Priority";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID daae4833-537c-4a75-9bb2-70c9058fa788;
+				}
+			}
+			- _modifiedTimeWeak = 6.4.2017::18:38:23;
+			- Literals = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IEnumerationLiteral 
+					- _id = GUID b1576a45-50fd-4b7e-86c0-ba1d3e4baf3a;
+					- _name = "High";
+					- _modifiedTimeWeak = 6.4.2017::18:38:23;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID c924c9c9-863f-4bb8-91f7-7483fab98d8d;
+					- _name = "Medium";
+					- _modifiedTimeWeak = 6.4.2017::18:38:23;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 3adabee4-4e58-401f-aa7e-ed6032235206;
+					- _name = "Low";
+					- _modifiedTimeWeak = 6.4.2017::18:38:23;
+					- _value = "";
+				}
+			}
+			- _kind = Enumeration;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

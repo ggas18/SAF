@@ -1,0 +1,1014 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "DesignSynthesisPkg";
+		- _id = GUID 90511b42-cde3-423d-a0d3-6bf9c3ce987d;
+	}
+	- _id = GUID 94bf9e20-24e3-45c8-8c98-743dab26de70;
+	- _myState = 8192;
+	- _name = "ArchitecturalDesignPkg";
+	- _modifiedTimeWeak = 6.8.2017::9:43:59;
+	- _lastID = 1;
+	- weakCGTime = 6.8.2017::9:43:59;
+	- strongCGTime = 6.8.2017::9:41:10;
+	- _defaultComposite = GUID d9cc3c25-8082-4549-a75a-208ae9e85a58;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID d9cc3c25-8082-4549-a75a-208ae9e85a58;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 6.8.2017::9:43:59;
+			- weakCGTime = 6.8.2017::9:43:59;
+			- strongCGTime = 6.8.2017::9:41:10;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 5fe96105-6455-4393-9ba2-0bc4ed7756e5;
+			- _myState = 8192;
+			- _name = "SAAF";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::9:48:16;
+			- weakCGTime = 6.8.2017::9:48:16;
+			- strongCGTime = 6.8.2017::9:41:52;
+			- Operations = { IRPYRawContainer 
+				- size = 15;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 442968c5-29ec-487b-9e71-75776e728986;
+					- _myState = 8192;
+					- _name = "ReceptionnerCommande";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 2af0bb1f-4da1-4ca5-b345-1ba1012d9e99;
+							- _myState = 2048;
+							- _name = "ReceptionnerCommande";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "ReceptionnerCommande()";
+								- _id = GUID 914d1ad2-8ee8-4b2b-938e-e16383d04caa;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 895684ff-0ada-4cd1-a15d-d7c2af09ad57;
+					- _myState = 8192;
+					- _name = "SeDeplacerVersAccueil";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID a77cdd41-d617-4be4-85ce-00483f13691b;
+							- _myState = 2048;
+							- _name = "SeDeplacerVersAccueil";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "SeDeplacerVersAccueil()";
+								- _id = GUID 613f852f-25ee-4a08-8fde-6b8395e7e427;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 533f8e5f-d133-4509-ac18-8479b79eac9b;
+							- _myState = 2048;
+							- _name = "SeDeplacerVersAccueil";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:48:6;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "SeDeplacerVersAccueil()";
+								- _id = GUID dbcbbdf3-6bdd-40c7-8eec-6d9d37b31729;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:48:6;
+					- _lastID = 2;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 5584f98c-5a20-4b4c-a742-10c205f633d2;
+					- _myState = 8192;
+					- _name = "SeDeplacerVersSalle";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID d7b88162-c9c7-4b88-b085-87e1a28db4a4;
+							- _myState = 2048;
+							- _name = "SeDeplacerVersSalle";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "SeDeplacerVersSalle()";
+								- _id = GUID 5d424fa2-4d65-45b6-b8cf-d2d85c48404e;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 8105f24a-589f-4270-afc0-fc3ed4d1fa74;
+							- _myState = 2048;
+							- _name = "SeDeplacerVersSalle";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:46:38;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "SeDeplacerVersSalle()";
+								- _id = GUID d250311c-b7e2-4ccb-a67b-f00b60849fd7;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:46:38;
+					- _lastID = 2;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID beb3140f-423b-4764-a984-000956361404;
+					- _myState = 8192;
+					- _name = "LibererZone";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID df586789-eddc-48bd-ae7c-ab8e99564739;
+							- _myState = 2048;
+							- _name = "LibererZone";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "LibererZone()";
+								- _id = GUID d769a172-1724-4ae0-bd67-74d8b9f495d4;
+							}
+						}
+						{ IDependency 
+							- _id = GUID f02204c5-875a-44d3-a0f1-2ca7b3e6215c;
+							- _myState = 2048;
+							- _name = "LibererZone";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:48:8;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "LibererZone()";
+								- _id = GUID a50fb2aa-82f4-4617-b916-9f46c91c31a9;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:48:8;
+					- _lastID = 2;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID cb2e65bd-4627-460d-8833-ee99fa5e8bbd;
+					- _myState = 8192;
+					- _name = "SeDeplacerVersAcceuil";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID b34f1d79-e38a-4ac6-afab-5af833dae1b7;
+							- _myState = 2048;
+							- _name = "SeDeplacerVersAcceuil";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "SeDeplacerVersAcceuil()";
+								- _id = GUID dbd7c6b5-23bb-4ce8-9a1b-4962b6c8470c;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IReception 
+					- _id = GUID b1a32a6d-72ac-47a7-9728-fb3c5be3e666;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 75f32131-6a5d-4807-b024-8a39075bd3a2;
+							- _myState = 2048;
+							- _name = "reqCommande";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "reqCommande()";
+								- _id = GUID 82bcb3d5-0a43-4723-8114-87d4c153d4fd;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqCommande()";
+						- _id = GUID 20a0d602-ee08-41fa-858f-535a4e46b2c9;
+					}
+				}
+				{ IReception 
+					- _id = GUID ed3f8332-6f46-40f6-9c84-de0594b097dc;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 9f9f8cfa-19ff-4407-b20e-8b41b60ba3d7;
+							- _myState = 2048;
+							- _name = "repChargementFourniture";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "repChargementFourniture()";
+								- _id = GUID 90dec0eb-f2d2-40b4-b7f2-754fc6cd7681;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "repChargementFourniture()";
+						- _id = GUID bf25169d-8776-4716-918d-5c05a3df829c;
+					}
+				}
+				{ IReception 
+					- _id = GUID b263c5ae-a947-4e70-a676-a941d933e46e;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 37f6111f-6180-4b1a-bb88-9c227cfcd11d;
+							- _myState = 2048;
+							- _name = "repDechargementFourniture";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "repDechargementFourniture()";
+								- _id = GUID b687d954-b233-4010-bbb4-562fdf620c69;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 59655ebb-070c-454c-9dce-2e7de93be1de;
+							- _myState = 2048;
+							- _name = "repDechargementFourniture";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:48:16;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "repDechargementFourniture()";
+								- _id = GUID 439a174e-a859-4c7a-835b-8fa71405d36b;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:48:16;
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "repDechargementFourniture()";
+						- _id = GUID c97b2b6a-0836-44b1-bfd4-889e6f0ef63e;
+					}
+				}
+				{ IReception 
+					- _id = GUID 44d1ad81-a8dc-40c4-9fd4-270bcda54c13;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID db22c32b-566f-4346-bb19-f74033717eaa;
+							- _myState = 2048;
+							- _name = "repFournitureUsagee";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "repFournitureUsagee()";
+								- _id = GUID a305184e-0a23-448b-a68a-10b8f2bea4ad;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "repFournitureUsagee(OMBoolean)";
+						- _id = GUID 77288bbb-9eab-4618-b47f-b56557c89db2;
+					}
+				}
+				{ IReception 
+					- _id = GUID ed7ed559-1daa-48ba-89b5-749786bfd09e;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 4887605b-803b-42a7-aa79-e96bd6cc401f;
+							- _myState = 2048;
+							- _name = "repChargementFournitureUsagee";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "repChargementFournitureUsagee()";
+								- _id = GUID 7659a9cd-9645-4e7c-ba28-51e89e0f04d5;
+							}
+						}
+						{ IDependency 
+							- _id = GUID ec2b8033-3de3-4dc5-a885-6c6fc40a49ca;
+							- _myState = 2048;
+							- _name = "repChargementFournitureUsagee";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:46:58;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "repChargementFournitureUsagee()";
+								- _id = GUID 0bfea4c6-6e71-4e76-bcff-de44fad4185a;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:46:58;
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "repChargementFournitureUsagee()";
+						- _id = GUID de835570-7307-4028-b957-1eda93b20522;
+					}
+				}
+				{ IReception 
+					- _id = GUID b4a2ea35-bcbc-49ef-aa59-3da727b1d464;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 9e431b1d-18aa-4d0e-a49b-377b221e5cd7;
+							- _myState = 2048;
+							- _name = "repDechargementFournitureUsagee";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "repDechargementFournitureUsagee()";
+								- _id = GUID 9d14b8db-26f2-4a1a-910c-92f4ef29200c;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "repDechargementFournitureUsagee()";
+						- _id = GUID 8a68b148-2a3b-44a9-a61f-20ab45db8981;
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID a179f11b-5d36-4a8b-a63d-e118174ffcc4;
+					- _myState = 8192;
+					- _name = "ReceptionnerEchange";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 067e3679-1476-4d2b-a3ae-29e3708d9ed4;
+							- _myState = 2048;
+							- _name = "ReceptionnerEchange";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "ReceptionnerEchange()";
+								- _id = GUID d77cc20b-61e9-46d1-9c41-ddb383fc2e5c;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IReception 
+					- _id = GUID 5095efef-4455-428b-bfa8-631667df7b61;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID c5c420d4-b7aa-4f90-aa8a-0b99b33224e5;
+							- _myState = 2048;
+							- _name = "reqEchange";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "reqEchange()";
+								- _id = GUID 3fbf5f2a-917c-48e7-a8c9-fa3a91d35050;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqEchange()";
+						- _id = GUID 38e98583-10ba-4826-87cc-54c090b5f7f6;
+					}
+				}
+				{ IReception 
+					- _id = GUID 949e225a-2a82-4186-95fc-6ee00c662746;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 029f7b76-c4e0-49e8-ac5b-3f7ff8df82ed;
+							- _myState = 2048;
+							- _name = "repEchangeFourniture";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "repEchangeFourniture()";
+								- _id = GUID 8cab1cb4-5124-4828-8ce5-c3cd644e87ee;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "repEchangeFourniture()";
+						- _id = GUID 7f0bba76-ef37-4e83-8dfd-c6a3ba7576a9;
+					}
+				}
+				{ IReception 
+					- _id = GUID 4d5dd4b1-f368-4022-9e71-0c5e9ecd42dc;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 2cf81d13-84ff-4071-afb8-de19093b90bf;
+							- _myState = 2048;
+							- _name = "repEchange";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "EchangerFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EchangerFeutresPkg";
+								- _class = "Uc_EchangerFeutres";
+								- _name = "repEchange()";
+								- _id = GUID bf276e24-7150-402c-ba14-539f73d7109f;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "repEchange()";
+						- _id = GUID 8b9a9fad-fe10-477f-a4b0-4098c3d7f98e;
+					}
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 748c723f-a1e7-49ce-8698-c53d1d0e040d;
+					- _myState = 8192;
+					- _name = "retour";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID fb32622d-be14-42bb-8837-00c5a9f5c942;
+							- _myState = 2048;
+							- _name = "retour";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 6.8.2017::9:43:59;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "CommanderFeutresPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+								- _class = "Uc_CommanderFeutres";
+								- _name = "retour";
+								- _id = GUID 47dca858-fc93-4a0a-9db7-71816ba864fc;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::9:43:59;
+					- _lastID = 1;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "OMBoolean";
+						- _id = GUID acbdc4af-48eb-46da-b59c-929d016f0498;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

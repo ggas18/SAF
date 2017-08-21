@@ -1,0 +1,54 @@
+[Files]
+Names=UML Model,2 - SAAF_Besoins_Correction JYB_V1.1_importable,3 - SAAF_Exigences_CorrectionJYB_V1.0 importable
+RepositoryTool=Boost
+
+[UML Model]
+Cover1=UML Model
+Cover1Position=2200@1700
+GraphicPosition=1830@2150
+Variable1Name=addImages
+Variable1Value=0
+Variable2Name=addHLReqsDeleted
+Variable2Value=0
+Variable3Name=tagValueToDescription
+Variable3Value=0
+Variable4Name=notImportedRequirementsDocuments
+Variable4Value=
+Variable5Name=requirementsPackage
+Variable5Value=SAAF/Packages/RequirementsAnalysisPkg/Packages/RequirementsPkg¥3 - SAAF_Exigences_CorrectionJYB_V1.0 importable¥SAAF/Packages/RequirementsDefinitionsPkg¥2 - SAAF_Besoins_Correction JYB_V1.1_importable
+Variable6Name=requirementDescription
+Variable6Value=0
+Variable7Name=addHLReqsModified
+Variable7Value=0
+Variable8Name=addHLReqsLocally
+Variable8Value=0
+Variable9Name=preserveHierarchy
+Variable9Value=0
+Variable10Name=lg
+Variable10Value=C++
+Variable11Name=createDependency
+Variable11Value=0
+Variable12Name=previousReqsPackage
+Variable12Value=SAAF/Packages/RequirementsDefinitionsPkg¥2 - SAAF_Besoins_Correction JYB_V1.1_importable
+Variable13Name=addHLRichText
+Variable13Value=0
+Type=Rhapsody SysML
+Path=..\SAAF.rpy
+AbsolutePath=U:\IS\SAAF.rpy
+
+[2 - SAAF_Besoins_Correction JYB_V1.1_importable]
+Cover1=UML Model
+Cover1Position=2080@1605
+GraphicPosition=1960@1010
+Type=Word
+Path=2 - SAAF_Besoins_Correction JYB_V1.1_importable.docx
+AbsolutePath=U:\IS\SAAF_rpy\2 - SAAF_Besoins_Correction JYB_V1.1_importable.docx
+
+[3 - SAAF_Exigences_CorrectionJYB_V1.0 importable]
+Cover1=UML Model
+Cover1Position=3820@2775
+GraphicPosition=5810@3400
+Type=Word
+Path=3 - SAAF_Exigences_CorrectionJYB_V1.0 importable.docx
+AbsolutePath=U:\IS\SAAF_rpy\3 - SAAF_Exigences_CorrectionJYB_V1.0 importable.docx
+

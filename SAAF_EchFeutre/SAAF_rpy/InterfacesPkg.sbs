@@ -1,0 +1,780 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID 507b6fcb-7c96-438d-9429-dc7e98dcb1c4;
+	- _myState = 8192;
+	- _name = "InterfacesPkg";
+	- _modifiedTimeWeak = 6.7.2017::20:46:54;
+	- weakCGTime = 6.7.2017::20:46:54;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID c72f44d1-7bcf-40f4-a2c5-5e8697543e5d;
+	- _eventsBaseID = 24601;
+	- Classes = { IRPYRawContainer 
+		- size = 9;
+		- value = 
+		{ IClass 
+			- _id = GUID c72f44d1-7bcf-40f4-a2c5-5e8697543e5d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- weakCGTime = 6.6.2017::10:3:27;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 193582f5-7c8d-4165-bfa7-aa08ce6c4597;
+			- _myState = 8192;
+			- _name = "ienseignant_Uc_CommanderFeutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- weakCGTime = 6.6.2017::10:3:27;
+			- strongCGTime = 6.6.2017::6:22:6;
+			- Operations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IReception 
+					- _id = GUID 940a421c-8312-4c85-8718-1add25c82c5f;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 20a0d602-ee08-41fa-858f-535a4e46b2c9;
+					}
+				}
+				{ IReception 
+					- _id = GUID 50c35c03-f4fd-4227-b071-d0c7623f69e4;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID c97b2b6a-0836-44b1-bfd4-889e6f0ef63e;
+					}
+				}
+				{ IReception 
+					- _id = GUID f14e0374-f05c-4085-92fb-723f7c9ff21d;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 77288bbb-9eab-4618-b47f-b56557c89db2;
+					}
+				}
+				{ IReception 
+					- _id = GUID 4668e381-4c84-4893-8f3a-7d2e4454bd0c;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID de835570-7307-4028-b957-1eda93b20522;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 9c4d4585-5792-47bf-a401-ebddb638fa9b;
+			- _myState = 8192;
+			- _name = "iUc_CommanderFeutres_enseignant";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- weakCGTime = 6.6.2017::10:3:27;
+			- strongCGTime = 6.6.2017::6:22:6;
+			- Operations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IReception 
+					- _id = GUID 8af32b0d-00e6-4e9d-b9c4-eb900c779206;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 5dbef5e6-fbba-4c7a-b4a5-758e34363df1;
+					}
+				}
+				{ IReception 
+					- _id = GUID 0b34c330-efff-49d4-a16d-fd2b2d20daf4;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 9cbf809d-9ddd-4253-9e03-c56f6acfaea8;
+					}
+				}
+				{ IReception 
+					- _id = GUID 2ad4796b-5400-43a8-ba0b-4b8807739ea0;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID e0247b45-173e-4107-833b-5f4820f3b2aa;
+					}
+				}
+				{ IReception 
+					- _id = GUID 9c74e3be-248b-4ee1-a45c-69fccccd71df;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 5016cb94-c1b4-4762-8208-888cd98d7be0;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 553bb3bb-9059-44f3-a7ed-f2aa600c15c8;
+			- _myState = 8192;
+			- _name = "iUc_CommanderFeutres_secretaire";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- weakCGTime = 6.6.2017::10:3:27;
+			- strongCGTime = 6.6.2017::6:22:6;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IReception 
+					- _id = GUID d39f455e-132d-450d-8926-6325cbcb1b9d;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID f74094e9-2deb-4c6f-a8bb-b858da64531b;
+					}
+				}
+				{ IReception 
+					- _id = GUID be40a50f-30b1-40d1-967f-f00912681abf;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 792e8297-2b0c-4ee1-8315-31463a17d7b4;
+					}
+				}
+				{ IReception 
+					- _id = GUID 59e2885e-b5f0-4f1f-93c8-b6dd68ddf0ed;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID a906d7c1-ad24-486f-a155-b6c01760a6a1;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID b1c5da06-be25-402a-b48f-b83a2bd9798b;
+			- _myState = 8192;
+			- _name = "isecretaire_Uc_CommanderFeutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- weakCGTime = 6.6.2017::10:3:27;
+			- strongCGTime = 6.6.2017::6:22:7;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IReception 
+					- _id = GUID 7d525183-fc34-47d0-9c0b-245dcbaaf2d6;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID bf25169d-8776-4716-918d-5c05a3df829c;
+					}
+				}
+				{ IReception 
+					- _id = GUID 0f8b65d7-602d-4f03-9a16-bd938dac374a;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 8a68b148-2a3b-44a9-a61f-20ab45db8981;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID e8eae1bf-51e2-4b49-b3a0-24a23bb98f0b;
+			- _myState = 8192;
+			- _name = "ienseignant_Uc_EchangerFeutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.7.2017::20:46:54;
+			- weakCGTime = 6.7.2017::20:46:54;
+			- strongCGTime = 6.7.2017::20:46:50;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IReception 
+					- _id = GUID dda276a4-d9a0-4a98-b098-d540cd0f3afb;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 38e98583-10ba-4826-87cc-54c090b5f7f6;
+					}
+				}
+				{ IReception 
+					- _id = GUID 3af71242-a799-4f04-b0b7-5592381df1b7;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID d5bb9acc-f5fc-4ffa-b3c5-1a75ae3bc663;
+					}
+				}
+				{ IReception 
+					- _id = GUID 0ca7f4d8-ecbc-4633-87df-f99cd7f4ac10;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 6f5167cb-fb30-4ae5-99b0-3344f30f1e2f;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 8569fe60-c158-41aa-b440-02d1a7ec6876;
+			- _myState = 8192;
+			- _name = "iUc_EchangerFeutres_enseignant";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.7.2017::20:46:54;
+			- weakCGTime = 6.7.2017::20:46:54;
+			- strongCGTime = 6.7.2017::20:46:50;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IReception 
+					- _id = GUID 9cca5c60-46ef-4ae3-8612-0555b7a8e6ec;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 8b9a9fad-fe10-477f-a4b0-4098c3d7f98e;
+					}
+				}
+				{ IReception 
+					- _id = GUID e41705c7-04b5-4c9d-9fbf-3ec5ffe88753;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 28d0298f-28b0-4a0a-9639-306bd1682fdf;
+					}
+				}
+				{ IReception 
+					- _id = GUID b9d63734-0e3b-461e-bdb7-b1d17d8d2274;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 0b3a4028-5133-4275-a4c3-4cec7fd18e29;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 92b53c62-8612-4dae-b751-dbc6f4ad3555;
+			- _myState = 8192;
+			- _name = "iUc_EchangerFeutres_secretaire";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.7.2017::20:46:54;
+			- weakCGTime = 6.7.2017::20:46:54;
+			- strongCGTime = 6.7.2017::20:46:50;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IReception 
+					- _id = GUID ab70453c-ce9a-4e3d-9fea-3710e8a5a53d;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 8b9a9fad-fe10-477f-a4b0-4098c3d7f98e;
+					}
+				}
+				{ IReception 
+					- _id = GUID 4266e11d-b9cc-4e89-b4da-543e96eb07a0;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID a0d86bf6-946b-4e6d-a355-4bbd8761289e;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID a58a0c2a-c9b9-44eb-a244-0549323f2497;
+			- _myState = 8192;
+			- _name = "isecretaire_Uc_EchangerFeutres";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 6.7.2017::20:46:51;
+			- weakCGTime = 6.7.2017::20:46:51;
+			- strongCGTime = 6.7.2017::20:46:51;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID 4a2e135e-c53a-4f19-80e0-0447a2976ac0;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 7f0bba76-ef37-4e83-8dfd-c6a3ba7576a9;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Events = { IRPYRawContainer 
+		- size = 21;
+		- value = 
+		{ IEvent 
+			- _id = GUID 20a0d602-ee08-41fa-858f-535a4e46b2c9;
+			- _myState = 8192;
+			- _name = "reqCommande";
+			- _modifiedTimeWeak = 6.6.2017::6:22:6;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 5dbef5e6-fbba-4c7a-b4a5-758e34363df1;
+			- _myState = 8192;
+			- _name = "repCommande";
+			- _modifiedTimeWeak = 6.6.2017::6:22:6;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID f74094e9-2deb-4c6f-a8bb-b858da64531b;
+			- _myState = 8192;
+			- _name = "repCommandeSecretaire";
+			- _modifiedTimeWeak = 6.6.2017::6:22:6;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID bf25169d-8776-4716-918d-5c05a3df829c;
+			- _myState = 8192;
+			- _name = "repChargementFourniture";
+			- _modifiedTimeWeak = 6.6.2017::6:22:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 792e8297-2b0c-4ee1-8315-31463a17d7b4;
+			- _myState = 8192;
+			- _name = "reqChargementFourniture";
+			- _modifiedTimeWeak = 6.6.2017::6:22:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID c97b2b6a-0836-44b1-bfd4-889e6f0ef63e;
+			- _myState = 8192;
+			- _name = "repDechargementFourniture";
+			- _modifiedTimeWeak = 6.6.2017::6:22:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 9cbf809d-9ddd-4253-9e03-c56f6acfaea8;
+			- _myState = 8192;
+			- _name = "reqDechargementFourniture";
+			- _modifiedTimeWeak = 6.6.2017::6:22:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 77288bbb-9eab-4618-b47f-b56557c89db2;
+			- _myState = 8192;
+			- _name = "repFournitureUsagee";
+			- _modifiedTimeWeak = 6.6.2017::8:56:1;
+			- _lastID = 1;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IArgument 
+					- _id = GUID b4f1e92f-82dc-4809-adfc-79c26836600b;
+					- _myState = 8192;
+					- _name = "retour";
+					- _modifiedTimeWeak = 6.6.2017::8:56:1;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "OMBoolean";
+						- _id = GUID acbdc4af-48eb-46da-b59c-929d016f0498;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
+			}
+		}
+		{ IEvent 
+			- _id = GUID e0247b45-173e-4107-833b-5f4820f3b2aa;
+			- _myState = 8192;
+			- _name = "reqFournitureUsagee";
+			- _modifiedTimeWeak = 6.6.2017::6:22:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID de835570-7307-4028-b957-1eda93b20522;
+			- _myState = 8192;
+			- _name = "repChargementFournitureUsagee";
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 5016cb94-c1b4-4762-8208-888cd98d7be0;
+			- _myState = 8192;
+			- _name = "reqChargementFournitureUsagee";
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 8a68b148-2a3b-44a9-a61f-20ab45db8981;
+			- _myState = 8192;
+			- _name = "repDechargementFournitureUsagee";
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID a906d7c1-ad24-486f-a155-b6c01760a6a1;
+			- _myState = 8192;
+			- _name = "reqDechargementFournitureUsagee";
+			- _modifiedTimeWeak = 6.6.2017::10:3:27;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 38e98583-10ba-4826-87cc-54c090b5f7f6;
+			- _myState = 8192;
+			- _name = "reqEchange";
+			- _modifiedTimeWeak = 6.7.2017::20:46:50;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 8b9a9fad-fe10-477f-a4b0-4098c3d7f98e;
+			- _myState = 8192;
+			- _name = "repEchange";
+			- _modifiedTimeWeak = 6.7.2017::20:46:50;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID d5bb9acc-f5fc-4ffa-b3c5-1a75ae3bc663;
+			- _myState = 8192;
+			- _name = "repChargementFournitureEchangee";
+			- _modifiedTimeWeak = 6.7.2017::20:46:51;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 28d0298f-28b0-4a0a-9639-306bd1682fdf;
+			- _myState = 8192;
+			- _name = "reqChargementFournitureEchangee";
+			- _modifiedTimeWeak = 6.7.2017::20:46:51;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 7f0bba76-ef37-4e83-8dfd-c6a3ba7576a9;
+			- _myState = 8192;
+			- _name = "repEchangeFourniture";
+			- _modifiedTimeWeak = 6.7.2017::20:46:52;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID a0d86bf6-946b-4e6d-a355-4bbd8761289e;
+			- _myState = 8192;
+			- _name = "reqEchangeFourniture";
+			- _modifiedTimeWeak = 6.7.2017::20:46:54;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 6f5167cb-fb30-4ae5-99b0-3344f30f1e2f;
+			- _myState = 8192;
+			- _name = "repDechargementNouvelleFourniture";
+			- _modifiedTimeWeak = 6.7.2017::20:46:54;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 0b3a4028-5133-4275-a4c3-4cec7fd18e29;
+			- _myState = 8192;
+			- _name = "reqDechargementNouvelleFourniture";
+			- _modifiedTimeWeak = 6.7.2017::20:46:54;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

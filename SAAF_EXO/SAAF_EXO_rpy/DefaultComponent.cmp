@@ -1,0 +1,229 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IComponent 
+	- _id = GUID f899a2db-054c-4f4b-9e13-cca975e17c96;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 6.4.2017::18:14:24;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID c8020013-c529-4e69-87a8-7f9e3cac84ed;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 6.4.2017::18:14:20;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 460b8756-ad6b-485f-a2dc-d2f6a7a250e7;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 460b8756-ad6b-485f-a2dc-d2f6a7a250e7;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID ee730fa4-4f44-44ef-b106-ab56d46e07d8;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 17bfce86-6e54-4147-8f91-3ebf808e36fb;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 680334b1-92ca-4a2d-bc25-cc1bba74ac2d;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 14;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SysML";
+			- _id = GUID d9689b73-885e-44c4-896b-de43defa0a33;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "HarmonySE";
+			- _id = GUID 29d4fccc-40d9-4cb3-af8a-d7464f198819;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "ActorPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "ActorPkg";
+			- _id = GUID 59e8c7d6-8ba9-48bf-a677-6d2bd696c263;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "DesignSynthesisPkg";
+			- _id = GUID 0ffca453-1ed2-41c9-8abb-dfc32666016a;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "FunctionalAnalysisPkg";
+			- _id = GUID c3c51aa3-b5ca-4246-abb0-9551836d1b25;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "InterfacesPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "InterfacesPkg";
+			- _id = GUID e689c855-5a97-4a5e-b526-6275f0eed234;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "TypesPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "TypesPkg";
+			- _id = GUID d3ad0dc5-4ae9-47c5-8dc4-7dcd190fbaa5;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SystemRequirementsAnalysisPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SystemRequirementsAnalysisPkg";
+			- _id = GUID ba3adecd-1c06-48fb-b099-01221bdd40bc;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsPkg.sbs";
+			- _subsystem = "SystemRequirementsAnalysisPkg";
+			- _class = "";
+			- _name = "RequirementsPkg";
+			- _id = GUID 3ede1006-c1cc-49bf-b7a6-339f7e98517d;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "UseCaseDiagramsPkg.sbs";
+			- _subsystem = "SystemRequirementsAnalysisPkg";
+			- _class = "";
+			- _name = "UseCaseDiagramsPkg";
+			- _id = GUID 8ba5ca59-0b8e-4273-8b32-a17f9efdff68;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SAAF_Exigences_CorrectionJYB_V1_0_importable.sbs";
+			- _subsystem = "SystemRequirementsAnalysisPkg";
+			- _class = "";
+			- _name = "SAAF_Exigences_CorrectionJYB_V1_0_importable";
+			- _id = GUID 057b8a32-8a2d-48b9-bdb5-723ae3557d39;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsDefinitionPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "RequirementsDefinitionPkg";
+			- _id = GUID 3b403c0e-cee5-4cf5-b424-60b24110e4f2;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SAAF_Besoins_Correction_JYB_V1_1_importable.sbs";
+			- _subsystem = "RequirementsDefinitionPkg";
+			- _class = "";
+			- _name = "SAAF_Besoins_Correction_JYB_V1_1_importable";
+			- _id = GUID d2de1d29-1f98-4659-bf0f-6d18e6fa2056;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "GatewayProjectFiles.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "GatewayProjectFiles";
+			- _id = GUID bd500741-0979-4dd7-ad0c-1d4651765e6a;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 6.4.2017::18:14:24;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

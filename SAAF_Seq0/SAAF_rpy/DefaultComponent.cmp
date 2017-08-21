@@ -1,0 +1,164 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IComponent 
+	- _id = GUID 92654e78-05fd-4226-b8fb-bd9b354bdcbb;
+	- _myState = 8192;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 6.6.2017::7:20:26;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 83b65ddd-4ff5-4951-bcfc-40f0455010bc;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 6.6.2017::7:20:26;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 3;
+			- value = 
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "ActorPkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ActorPkg";
+				- _id = GUID e7923de0-acfe-415d-80e8-f6ef0050b627;
+			}
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "CommanderFeutresPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg";
+				- _class = "";
+				- _name = "CommanderFeutresPkg";
+				- _id = GUID 3daa9827-a71a-42e6-b53d-d29c800968ff;
+			}
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "InterfacesPkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "InterfacesPkg";
+				- _id = GUID 507b6fcb-7c96-438d-9429-dc7e98dcb1c4;
+			}
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID e1b42cd4-9a65-482a-b403-d526d5436683;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID e1b42cd4-9a65-482a-b403-d526d5436683;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "MSVC";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "MSVC,MSVCDLL,MSVCStandardLibrary,VxWorks,VxWorks6diab,VxWorks6gnu,VxWorks6diab_RTP,VxWorks6gnu_RTP,Solaris2,Cygwin,MicrosoftWinCE600,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoMomentics,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged653,WorkbenchManaged_RTP";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "DefaultConfig";
+			- _modifiedTimeWeak = 6.6.2017::7:19:19;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 0b98c145-6b58-4de1-97dc-2dd1956869f9;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "U:\\IS\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID f09b1588-d29c-4f1a-a561-3f6685451a43;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "U:\\IS\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID f5728293-cd38-45da-b52f-bce45138b2ae;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 6.6.2017::7:19:19;
+			- strongCGTime = 6.6.2017::7:19:19;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 6.6.2017::7:20:26;
+	- strongCGTime = 6.6.2017::7:20:26;
+}
+

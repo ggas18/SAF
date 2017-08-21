@@ -1,0 +1,8 @@
+[Op Calls]
+[Events]
+itsUc_EchangerFeutres->GEN(repChargementFournitureUsagee())`Uc_EchangerFeutres
+itsUc_EchangerFeutres->GEN(reqEchange())`Uc_EchangerFeutres
+itsUc_EchangerFeutres->GEN(repEchange())`Uc_EchangerFeutres
+itsUc_EchangerFeutres->GEN(repDechargementFourniture())`Uc_EchangerFeutres
+itsUc_EchangerFeutres->GEN(repEchangeFourniture())`Uc_EchangerFeutres
+[Breakpoints]

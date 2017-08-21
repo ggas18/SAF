@@ -1,0 +1,204 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 78;
+				- m_nTop = 78;
+				- m_nRight = 579;
+				- m_nBottom = 347;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "ActorPkg.sbs";
+				- _subsystem = "ActorPkg";
+				- _class = "enseignant";
+				- _name = "StatechartDiagram";
+				- _id = GUID 6202974f-f24c-4302-8122-4e05cb013091;
+			}
+			- _UpLeft = 98 0 ;
+			- _DownRight = 562 209 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 130;
+				- m_nTop = 130;
+				- m_nRight = 953;
+				- m_nBottom = 568;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "ActorPkg.sbs";
+				- _subsystem = "ActorPkg";
+				- _class = "secretaire";
+				- _name = "StatechartDiagram";
+				- _id = GUID d53c26f3-bc12-48f6-aae8-27e6dc78eeae;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1010 625 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 927;
+				- m_nBottom = 542;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "CommanderFeutresPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+				- _class = "Uc_CommanderFeutres";
+				- _name = "StatechartDiagram";
+				- _id = GUID 9dafbd58-a3aa-45cb-9881-9d0df6baefa9;
+			}
+			- _UpLeft = 0 1114 ;
+			- _DownRight = 786 1492 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 52;
+				- m_nTop = 52;
+				- m_nRight = 706;
+				- m_nBottom = 384;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "RequirementsAnalysisPkg.sbs";
+				- _subsystem = "RequirementsAnalysisPkg";
+				- _class = "";
+				- _name = "RD_UcCommanderFeutres2ExigencesSyst";
+				- _id = GUID 8be44da2-47de-4c33-85a3-09c2fa13b35d;
+			}
+			- _UpLeft = 0 100 ;
+			- _DownRight = 617 372 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 208;
+				- m_nTop = 208;
+				- m_nRight = 1031;
+				- m_nBottom = 646;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "RequirementsAnalysisPkg.sbs";
+				- _subsystem = "RequirementsAnalysisPkg";
+				- _class = "";
+				- _name = "RD_UcEchangerFeutres2ExigencesSyst";
+				- _id = GUID 26e16f87-8cbc-429d-bbf8-67ca93b4ceb7;
+			}
+			- _UpLeft = 0 603 ;
+			- _DownRight = 1016 1092 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+	}
+	- _fullName = "D:\\Windows10\\Documents\\IS\\SAAF_Merge\\SAAF_Merged\\SAAF";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+
+	- tableMatrixColWidth = {
+		count=2;
+		{ - TableMatrixView
+			id=be0c2c8e-a3cc-454a-94d6-e7c2a2fc1ce4;
+			colwidth=;560;343;217;224;266;196;434;441;294;273;357;308;343;392;370;336;322;350;329;245;259;378;399;;
+		}
+		{ - TableMatrixView
+			id=3a9a89d0-dcf8-4d86-9fad-3db6176106f8;
+			colwidth=;422;343;224;231;273;357;196;434;441;294;343;371;336;322;350;;
+		}
+	}
+
+
+	- tableMatrixRowAdditionHight = {
+		count=2;
+		{ - TableMatrixView
+			id=be0c2c8e-a3cc-454a-94d6-e7c2a2fc1ce4;
+			rowAdditionalHight=onalHight=;cc0fdddc-1b36-4c66-9bc1-83da92514270,0;c22dd398-f4b8-4e92-b0fd-91d3f6115234,0;;
+		}
+		{ - TableMatrixView
+			id=3a9a89d0-dcf8-4d86-9fad-3db6176106f8;
+			rowAdditionalHight=onalHight=;0f1d740d-b828-44c4-a38b-49e856b1dbd6,0;726a45ec-8ba4-484b-aa25-dcf75b222e06,1;a13e0f5b-4590-408d-b1cb-846c38634518,0;3619fe8a-ccae-4880-9b79-a563b6bd67f9,0;173f3b80-03ff-4df4-a134-2ea4fa5c0bf1,0;259bb984-59d2-4913-bed2-9528e2366909,0;523a9dcb-fa88-4247-a22a-47829e2cbca5,0;2b436554-b7b1-454c-85a6-d9cc945b3d9f,0;82583262-fe30-4fec-8faa-0e1355bb2da1,0;;
+		}
+	}
+
+	- mapOslcRmActiveCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+}
+

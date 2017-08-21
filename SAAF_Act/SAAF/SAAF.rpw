@@ -1,0 +1,116 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = 0;
+				- m_ptMinPositionY = 786;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 150;
+				- m_nTop = 150;
+				- m_nRight = 1016;
+				- m_nBottom = 595;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "CommanderFeutresPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg";
+				- _class = "CommanderFeutres::CommanderFeutresBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID 630c3993-0088-4ffd-9f0b-d15b808c15fe;
+			}
+			- _UpLeft = 0 640 ;
+			- _DownRight = 612 1113 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 927;
+				- m_nBottom = 542;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "CommanderFeutresBBScenariosPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::CommanderFeutresPkg::CommanderFeutresBBScenariosPkg";
+				- _class = "";
+				- _name = "SD";
+				- _id = GUID 4f528358-5268-44d7-a3ac-3578afbb998e;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 983 448 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+	}
+	- _fullName = "D:\\Windows10\\Documents\\IS\\SAAF_Act\\SAAF\\SAAF";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+
+	- tableMatrixColWidth = {
+		count=1;
+		{ - TableMatrixView
+			id=3a9a89d0-dcf8-4d86-9fad-3db6176106f8;
+			colwidth=;422;343;224;231;273;357;196;434;441;294;343;371;336;322;350;;
+		}
+	}
+
+
+	- tableMatrixRowAdditionHight = {
+		count=2;
+		{ - TableMatrixView
+			id=be0c2c8e-a3cc-454a-94d6-e7c2a2fc1ce4;
+			rowAdditionalHight=onalHight=onalHight=onalHight=onalHight=;
+		}
+		{ - TableMatrixView
+			id=3a9a89d0-dcf8-4d86-9fad-3db6176106f8;
+			rowAdditionalHight=onalHight=onalHight=onalHight=onalHight=;82583262-fe30-4fec-8faa-0e1355bb2da1,0;;
+		}
+	}
+
+	- mapOslcRmActiveCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+}
+

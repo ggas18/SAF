@@ -1,0 +1,62 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID 8104bae5-6c9c-40f5-8be3-e5a9fd7abcd6;
+	- _myState = 8192;
+	- _name = "GatewayProjectFiles";
+	- _modifiedTimeWeak = 6.1.2017::6:22:49;
+	- EmbededFiles = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IEmbededFile 
+			- _id = GUID a571b2a4-1d4d-4a2a-9128-52c8e2cc9d8f;
+			- _name = "SAAF.rqtf";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "U:\\IS\\SAAF_rpy\\SAAF.rqtf";
+		}
+		{ IEmbededFile 
+			- _id = GUID 72f64f96-d7f8-49ee-aa07-0af194094d2d;
+			- _name = "SAAF.rqtfimage";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "U:\\IS\\SAAF_rpy\\SAAF.rqtfimage";
+		}
+		{ IEmbededFile 
+			- _id = GUID 027cb1e1-0ae3-413f-b172-db6d3bbe159f;
+			- _name = "2 - SAAF_Besoins_Correction JYB_V1.1_importable.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "U:\\IS\\SAAF_rpy\\2 - SAAF_Besoins_Correction JYB_V1.1_importable.docx";
+		}
+		{ IEmbededFile 
+			- _id = GUID 38c05eef-8e29-4623-a69c-340a17b3a361;
+			- _name = "3 - SAAF_Exigences_CorrectionJYB_V1.0 importable.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "U:\\IS\\SAAF_rpy\\3 - SAAF_Exigences_CorrectionJYB_V1.0 importable.docx";
+		}
+	}
+	- weakCGTime = 6.1.2017::6:22:49;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 4a73dfd1-1a82-40f6-bba9-4474ae73da14;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 4a73dfd1-1a82-40f6-bba9-4474ae73da14;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 5.19.2017::15:50:58;
+			- weakCGTime = 5.19.2017::15:50:58;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

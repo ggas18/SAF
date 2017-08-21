@@ -1,0 +1,62 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID bd500741-0979-4dd7-ad0c-1d4651765e6a;
+	- _myState = 8192;
+	- _name = "GatewayProjectFiles";
+	- _modifiedTimeWeak = 6.4.2017::18:44:0;
+	- EmbededFiles = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IEmbededFile 
+			- _id = GUID e11cf7a0-efa0-458e-944d-02ceed55c92a;
+			- _name = "SAAF_EXO.rqtf";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\SAAF_EXO_rpy\\SAAF_EXO.rqtf";
+		}
+		{ IEmbededFile 
+			- _id = GUID c3bbabe9-e9ac-4aff-9c9d-46a85face2cb;
+			- _name = "SAAF_EXO.rqtfimage";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\SAAF_EXO_rpy\\SAAF_EXO.rqtfimage";
+		}
+		{ IEmbededFile 
+			- _id = GUID 610a7898-0395-4127-9f0e-6056007e05a8;
+			- _name = "SAAF_Besoins_Correction JYB_V1.1_importable.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\SAAF_EXO_rpy\\SAAF_Besoins_Correction JYB_V1.1_importable.docx";
+		}
+		{ IEmbededFile 
+			- _id = GUID 96c927d6-944f-4623-9c7d-f7b9060b60b5;
+			- _name = "SAAF_Exigences_CorrectionJYB_V1.0 importable.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "D:\\Windows10\\Documents\\IS\\SAAF_EXO\\SAAF_EXO_rpy\\SAAF_Exigences_CorrectionJYB_V1.0 importable.docx";
+		}
+	}
+	- weakCGTime = 6.4.2017::18:44:0;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID de662ab4-0014-493f-a8d8-a5ffbabc08d6;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID de662ab4-0014-493f-a8d8-a5ffbabc08d6;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

@@ -1,0 +1,21 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+
+- filesTable = { IRPYRawContainer 
+	- size = 14;
+	- value = "SAAF_EXO.rpy" ""
+	"SAAF_EXO_rpy\\ActorPkg.sbs" "ActorPkg"
+	"SAAF_EXO_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"SAAF_EXO_rpy\\DesignSynthesisPkg.sbs" "DesignSynthesisPkg"
+	"SAAF_EXO_rpy\\FunctionalAnalysisPkg.sbs" "FunctionalAnalysisPkg"
+	"SAAF_EXO_rpy\\GatewayProjectFiles.sbs" "GatewayProjectFiles"
+	"SAAF_EXO_rpy\\InterfacesPkg.sbs" "InterfacesPkg"
+	"SAAF_EXO_rpy\\RequirementsDefinitionPkg.sbs" "RequirementsDefinitionPkg"
+	"SAAF_EXO_rpy\\RequirementsPkg.sbs" "SystemRequirementsAnalysisPkg::RequirementsPkg"
+	"SAAF_EXO_rpy\\SAAF_Besoins_Correction_JYB_V1_1_importable.sbs" "RequirementsDefinitionPkg::SAAF_Besoins_Correction_JYB_V1_1_importable"
+	"SAAF_EXO_rpy\\SAAF_Exigences_CorrectionJYB_V1_0_importable.sbs" "SystemRequirementsAnalysisPkg::SAAF_Exigences_CorrectionJYB_V1_0_importable"
+	"SAAF_EXO_rpy\\SystemRequirementsAnalysisPkg.sbs" "SystemRequirementsAnalysisPkg"
+	"SAAF_EXO_rpy\\TypesPkg.sbs" "TypesPkg"
+	"SAAF_EXO_rpy\\UseCaseDiagramsPkg.sbs" "SystemRequirementsAnalysisPkg::UseCaseDiagramsPkg"
+	
+}
+

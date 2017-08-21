@@ -1,0 +1,1606 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "SystemRequirementsPkg.sbs";
+		- _subsystem = "RequirementsAnalysisPkg";
+		- _class = "";
+		- _name = "SystemRequirementsPkg";
+		- _id = GUID b2b26e0c-b7c3-47d7-b1fe-db877bbd86fe;
+	}
+	- _id = GUID e9d45354-049c-420d-a78d-3fe4976eeecb;
+	- _myState = 10240;
+	- _name = "package_1";
+	- _displayName = "3 - SAAF_Exigences_CorrectionJYB_V1.0 importable";
+	- Stereotypes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IStereotype";
+			- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+		}
+	}
+	- Annotations = { IRPYRawContainer 
+		- size = 23;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 46f95213-5476-43a4-9f5e-5247dcadac5e;
+			- _myState = 8192;
+			- _name = "EF0 - Mettre a la disposition des enseignants des feutres pour tableau blanc";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 597cc63e-3a5e-4450-a0d3-a37aabbcaf9a;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- _modifiedTimeWeak = 6.4.2017::19:46:24;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pour mieux satisfaire ses clients, l'AIPL souhaite mettre en place un nouveau service de mise \\'e0 la disposition des enseignants des feutres pour tableau blanc.\\par
+}
+";
+			- reqID = "EF0";
+		}
+		{ IRequirement 
+			- _id = GUID 82583262-fe30-4fec-8faa-0e1355bb2da1;
+			- _myState = 8192;
+			- _name = "EF1 - Approvisionner des feutres en autonomie";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID cee84129-b3b8-429d-b076-c35cfb54f46b;
+					- _myState = 2048;
+					- _name = "BS1 - Approvisionner des feutres en autonomie";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.1.2017::7:2:38;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS1 - Approvisionner des feutres en autonomie";
+						- _id = GUID 66dc9646-a15a-407f-851a-b48418f4d1f8;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 170f7d20-fc2b-4707-8c9a-3c6ed909792f;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:48:55;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Au sein de l'AIP Lorrain, \\'e0 la demande des enseignants, un syst\\'e8me autonome approvisionne des feutres en utilisant un transporteur.\\par
+}
+";
+			- reqID = "EF1";
+		}
+		{ IRequirement 
+			- _id = GUID 3619fe8a-ccae-4880-9b79-a563b6bd67f9;
+			- _myState = 8192;
+			- _name = "EF11 - Echanger des feutres";
+			- Dependencies = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IDependency 
+					- _id = GUID bf982e63-35f9-45dd-a8ef-18d47e1f34ba;
+					- _myState = 2048;
+					- _name = "BS1.1 - \Échanger des feutres";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.1.2017::7:3:10;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS1.1 - \Échanger des feutres";
+						- _id = GUID 194602e1-f700-4b69-a0a3-736607b864f6;
+					}
+				}
+				{ IDependency 
+					- _id = GUID e73985cc-97a4-4152-873e-eac6aaff4972;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:11;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 2a8b7048-e2ac-4344-b904-7860bc279e79;
+					- _myState = 2048;
+					- _name = "BS1 - Approvisionner des feutres en autonomie";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:51:50;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS1 - Approvisionner des feutres en autonomie";
+						- _id = GUID 66dc9646-a15a-407f-851a-b48418f4d1f8;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:51:50;
+			- _lastID = 5;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 1.\\tab L'enseignant fait une demande d'\\'e9change de feutre(s) ;\\par
+2.\\tab La secr\\'e9taire est pr\\'e9venue de la demande d'\\'e9change ;\\par
+3.\\tab Le transporteur se d\\'e9place vers la salle de l'enseignant ;\\par
+4.\\tab L'enseignant d\\'e9pose les feutres usag\\'e9s sur le transporteur ;\\par
+5.\\tab Le transporteur se d\\'e9place \\'e0 l'accueil de l'AIPL ;\\par
+6.\\tab La secr\\'e9taire \\'e9change les feutres sur le transporteur ;\\par
+7.\\tab Le transporteur se d\\'e9place vers la salle de l'enseignant ;\\par
+8.\\tab L'enseignant prend les nouveaux feutres ;\\par
+9.\\tab Le transporteur lib\\'e8re la zone.\\par
+}
+";
+			- reqID = "EF11";
+		}
+		{ IRequirement 
+			- _id = GUID 173f3b80-03ff-4df4-a134-2ea4fa5c0bf1;
+			- _myState = 8192;
+			- _name = "EF12 - Commander des feutres";
+			- Dependencies = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IDependency 
+					- _id = GUID 2a5db13e-645d-4407-99ed-bd6e259cfdc4;
+					- _myState = 2048;
+					- _name = "BS1.2 - Commander des feutres";
+					- _modifiedTimeWeak = 6.4.2017::19:33:57;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS1.2 - Commander des feutres";
+						- _id = GUID 3fa72a3e-6b90-43c9-b9e5-5d347e6a2a40;
+					}
+				}
+				{ IDependency 
+					- _id = GUID fbe73c75-a799-430b-9ec4-0fb679b16a00;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:18;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+				{ IDependency 
+					- _id = GUID b3bc5db1-0066-438b-8731-d0691f7a83cc;
+					- _myState = 2048;
+					- _name = "BS1 - Approvisionner des feutres en autonomie";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:51:59;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS1 - Approvisionner des feutres en autonomie";
+						- _id = GUID 66dc9646-a15a-407f-851a-b48418f4d1f8;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:51:59;
+			- _lastID = 4;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 1.\\tab L'enseignant saisit sa commande de feutre(s) ;\\par
+2.\\tab La secr\\'e9taire est pr\\'e9venue de la nouvelle commande ;\\par
+3.\\tab Le transporteur se d\\'e9place \\'e0 l'accueil de l'AIPL ;\\par
+4.\\tab La secr\\'e9taire charge les feutres command\\'e9s sur le transporteur ;\\par
+5.\\tab Le transporteur se d\\'e9place vers la salle de l'enseignant ;\\par
+6.\\tab L'enseignant prend les nouveaux feutres ;\\par
+7.\\tab Si n\\'e9cessaire (feutres usag\\'e9s \\'e0 retourner) :\\par
+a.\\tab L'enseignant d\\'e9pose des feutres usag\\'e9s sur le transporteur ;\\par
+b.\\tab Le transporteur se d\\'e9place \\'e0 l'accueil de l'AIPL ;\\par
+c.\\tab La secr\\'e9taire r\\'e9cup\\'e8re les feutres usag\\'e9s sur le transporteur ;\\par
+8.\\tab Le transporteur lib\\'e8re la zone.\\par
+}
+";
+			- reqID = "EF12";
+		}
+		{ IRequirement 
+			- _id = GUID 726a45ec-8ba4-484b-aa25-dcf75b222e06;
+			- _myState = 8192;
+			- _name = "EF13 - G\érer les stocks de feutres";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID ca0968ff-b5f4-4940-9ef6-bfa036f26497;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:22;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:51:41;
+			- _lastID = 4;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La secr\\'e9taire peut au choix :\\par
+1.\\tab Rentrer des feutres en stock (achat ou reconditionnement de feutre) : la secr\\'e9taire indique le nombre de feutres disponibles pour chaque couleur.\\par
+2.\\tab Sortir des feutres du stock (destruction ou mise \\'e0 disposition des enseignants) : la secr\\'e9taire indique le nombre de feutres retir\\'e9s du stock pour chaque couleur.\\par
+3.\\tab Consulter l'\\'e9tat du stock : la secr\\'e9taire consulte le stock de feutres pour chaque couleur.\\par
+4.\\tab Editer un \\'e9tat du stock : la secr\\'e9taire \\'e9dite dans un fichier \\'ab texte \\'bb l'\\'e9tat du stock \\'e0 a date d'\\'e9dition.\\par
+5.\\tab R\\'e9aliser l'inventaire du stock : la secr\\'e9taire fait l'inventaire des stocks (les diff\\'e9rences \\'e9ventuelles sont enregistr\\'e9es).\\par
+}
+";
+			- reqID = "EF13";
+		}
+		{ IRequirement 
+			- _id = GUID 523a9dcb-fa88-4247-a22a-47829e2cbca5;
+			- _myState = 8192;
+			- _name = "EI1 - Porter les feutres";
+			- Dependencies = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IDependency 
+					- _id = GUID e39a9ee9-6213-4259-bb0c-064886ad13e7;
+					- _myState = 2048;
+					- _name = "BI1 - Porter les feutres";
+					- _modifiedTimeWeak = 6.4.2017::19:40:18;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BI1 - Porter les feutres";
+						- _id = GUID 8f372ad8-8728-4182-89f5-81a8613ccfd9;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 695c5f55-285f-4be2-bbe5-6c7badd30ebc;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:26;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 701236d2-e607-4f1e-a276-36c7ca934aac;
+					- _myState = 2048;
+					- _name = "BS1 - Approvisionner des feutres en autonomie";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:52:8;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS1 - Approvisionner des feutres en autonomie";
+						- _id = GUID 66dc9646-a15a-407f-851a-b48418f4d1f8;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:52:8;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le transporteur est \\'e9quip\\'e9 pour porter les feutres en assurant leur int\\'e9grit\\'e9.\\par
+}
+";
+			- reqID = "EI1";
+		}
+		{ IRequirement 
+			- _id = GUID 3a85bb4b-c676-4844-9a0b-81928fc93558;
+			- _myState = 8192;
+			- _name = "EI2 - Disposer d_une interface intuitive pour l_enseignant";
+			- _displayName = "EI2 - Disposer d'une interface intuitive pour l'enseignant";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 845699ea-eebd-4a55-9515-78b697118277;
+					- _myState = 2048;
+					- _name = "BI2 - Disposer d_une interface intuitive pour l_enseignant";
+					- _displayName = "BI2 - Disposer d'une interface intuitive pour l'enseignant";
+					- _modifiedTimeWeak = 6.4.2017::19:35:22;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BI2 - Disposer d_une interface intuitive pour l_enseignant";
+						- _id = GUID b7b45371-2eb8-4121-a9cc-9ce82a4a0163;
+					}
+				}
+				{ IDependency 
+					- _id = GUID d6ff4976-ede6-4d56-a879-a07bf53a537e;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:32;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 L'enseignant dispose d'une interface simple et intuitive pour faire ses demandes \\'e0 partir des postes informatiques.\\par
+}
+";
+			- reqID = "EI2";
+		}
+		{ IRequirement 
+			- _id = GUID 259bb984-59d2-4913-bed2-9528e2366909;
+			- _myState = 8192;
+			- _name = "EI3 - Disposer d_une interface intuitive pour la secr\étaire";
+			- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 EI3 - Disposer d'une interface intuitive pour la secr\\'e9taire\\par
+}
+";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 3ae06ae4-c2bd-4a79-808f-8a8fe95bf5cf;
+					- _myState = 2048;
+					- _name = "BI3 - Disposer d_une interface intuitive pour la secr\étaire";
+					- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 BI3 - Disposer d'une interface intuitive pour la secr\\'e9taire\\par
+}
+";
+					- _modifiedTimeWeak = 6.4.2017::19:55:38;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BI3 - Disposer d_une interface intuitive pour la secr\étaire";
+						- _id = GUID 74346b48-46f1-4bea-be02-52f0c981b0aa;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 6c66e5f3-0c8b-4e43-b0bc-ce310967f9a3;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:35;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La secr\\'e9taire dispose sur son poste informatique d'une interface simple et intuitive pour prendre en compte les demandes et assurer la gestion des stocks.\\par
+}
+";
+			- reqID = "EI3";
+		}
+		{ IRequirement 
+			- _id = GUID e5cc638a-a3e7-4570-bd62-0be5f9cebc8e;
+			- _myState = 8192;
+			- _name = "EI4 - Evoluer au sein de l_AIP Lorrain";
+			- _displayName = "EI4 - Evoluer au sein de l'AIP Lorrain";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID bd192773-7bff-43c6-b435-526e663098c1;
+					- _myState = 2048;
+					- _name = "BI4 - Evoluer au sein de l_AIP Lorrain";
+					- _displayName = "BI4 - Evoluer au sein de l'AIP Lorrain";
+					- _modifiedTimeWeak = 6.4.2017::19:35:55;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BI4 - Evoluer au sein de l_AIP Lorrain";
+						- _id = GUID 93eefdc4-0e27-4278-87cc-f91f5f0266e7;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 944beac1-0215-40f9-ae6d-636587f46c58;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:44;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le transporteur est \\'e9quip\\'e9 pour \\'e9voluer au rez-de-chauss\\'e9e de l'AIP Lorrain en assurant l'int\\'e9grit\\'e9 des biens et des personnes.\\par
+}
+";
+			- reqID = "EI4";
+		}
+		{ IRequirement 
+			- _id = GUID d2529f03-8e54-4896-b144-a046ad561923;
+			- _myState = 8192;
+			- _name = "EO1 - R\épondre aux demandes en FIFO";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 19018e6d-b9a3-4043-8d2c-9cead05dbe56;
+					- _myState = 2048;
+					- _name = "BO1 - R\épondre aux demandes en FIFO";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.4.2017::19:30:49;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BO1 - R\épondre aux demandes en FIFO";
+						- _id = GUID 47a039e0-e449-4ea0-a41f-6c62a8a44a50;
+					}
+				}
+				{ IDependency 
+					- _id = GUID a89ef3fb-3487-439b-acbb-7b38e6dbc59a;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:48;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Les services sont rendus dans l'ordre d'arriv\\'e9e des demandes en mode FIFO. Cf. Etats du syst\\'e8me.\\par
+}
+";
+			- reqID = "EO1";
+		}
+		{ IRequirement 
+			- _id = GUID 21cf945b-351a-48b4-8b79-1c4961f062e0;
+			- _myState = 8192;
+			- _name = "EO2 - Pr\évenir si le service ne peut \être rendu";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 2e163778-3653-45ab-b834-e2bf0b62cefd;
+					- _myState = 2048;
+					- _name = "BO2 - Pr\évenir si le service ne peut \être rendu";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.1.2017::7:5:39;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BO2 - Pr\évenir si le service ne peut \être rendu";
+						- _id = GUID 54e7ebfe-1224-4647-87b2-82771b53735b;
+					}
+				}
+				{ IDependency 
+					- _id = GUID d250e1da-501f-45ce-a459-35b1ba61d9c8;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:52;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pr\\'e9venir si le service ne peut \\'eatre rendu (transporteur ou feutre non disponible, ... ). Cf. Acquittement des demandes.\\par
+}
+";
+			- reqID = "EO2";
+		}
+		{ IRequirement 
+			- _id = GUID 8c3bd8e8-f115-4a32-b416-1ba0a14af1a3;
+			- _myState = 8192;
+			- _name = "EO3 - Parall\éliser la gestion des stocks";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 705ae19c-a6e2-423c-91f0-a0300ba6872a;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:56;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La gestion des stocks peut \\'eatre r\\'e9alis\\'e9e en m\\'eame temps que les approvisionnements de feutres. Cf; Etats du syst\\'e8me\\par
+}
+";
+			- reqID = "EO3";
+		}
+		{ IRequirement 
+			- _id = GUID f93827cb-a3b2-41bc-a819-9d3cbc4d7c83;
+			- _myState = 8192;
+			- _name = "EP1 - Rendre le service en moins de 5 minutes";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 675c52ca-7299-4ec2-9fcb-c11b6d6c44c7;
+					- _myState = 2048;
+					- _name = "BP1 - Rendre le service en moins de 5 minutes";
+					- _modifiedTimeWeak = 6.4.2017::19:36:5;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BP1 - Rendre le service en moins de 5 minutes";
+						- _id = GUID 16859f67-3db5-491e-910b-6a61db655404;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 4d82c2ef-44a1-4fe7-8570-b86b09d9ccac;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:49:59;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Lorsque le Patrobot est disponible, le service d'\\'e9change ou de commande est rendu en moins de 5 minutes,\\par
+}
+";
+			- reqID = "EP1";
+		}
+		{ IRequirement 
+			- _id = GUID fc316649-7993-47bd-b729-7f85ddd28839;
+			- _myState = 8192;
+			- _name = "EP2 - Mettre \à jour les stocks en moins de 2 minutes";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID c8cd912b-5b7d-4696-83bb-6256693a112b;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:1;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Une mise \\'e0 jour des stocks par la secr\\'e9taire est r\\'e9alis\\'e9e en moins de 2 minutes.\\par
+}
+";
+			- reqID = "EP2";
+		}
+		{ IRequirement 
+			- _id = GUID f1fd3542-7d43-4f47-aa40-1f0375dbe6ec;
+			- _myState = 8192;
+			- _name = "EC1 - Utiliser la base robotique mobile PatrolBot";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 8b3af182-ab43-4b29-8f5a-639d511c8c45;
+					- _myState = 2048;
+					- _name = "BC1 - Utiliser la base robotique mobile PatrolBot";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+						}
+					}
+					- _modifiedTimeWeak = 6.1.2017::6:45:14;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BC1 - Utiliser la base robotique mobile PatrolBot";
+						- _id = GUID 0c60a8d5-2344-48cf-9bc2-30464b5956b5;
+					}
+				}
+				{ IDependency 
+					- _id = GUID ba02d6ae-427f-43e9-a3a1-ccf0e53a1afd;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:5;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:5;
+			- _lastID = 2;
+			- _body = "Le transporteur devra utiliser la base robotique mobile PatrolBot.";
+			- reqID = "EC1";
+		}
+		{ IRequirement 
+			- _id = GUID 1826cce6-0308-4db9-b11d-d756dff13b46;
+			- _myState = 8192;
+			- _name = "EC2 - Fournir la documentation d utilisation";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 33986203-2351-4982-984a-c92b7a15dd0b;
+					- _myState = 2048;
+					- _name = "BC2 - Fournir la documentation d utilisation";
+					- _modifiedTimeWeak = 6.4.2017::19:37:15;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BC2 - Fournir la documentation d utilisation";
+						- _id = GUID c8141504-c224-40fb-ac5f-29a1a901a08c;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 30d2ceb2-1161-407c-aa44-73bb00f43736;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:8;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La documentation n\\'e9cessaire pour un usage simple du syst\\'e8me est fournie.\\par
+}
+";
+			- reqID = "EC2";
+		}
+		{ IRequirement 
+			- _id = GUID a69d72b4-086c-4661-b4bb-57af255712ec;
+			- _myState = 8192;
+			- _name = "EC3 - Op\érer durant les heures d_ouverture";
+			- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 EC3 - Op\\'e9rer durant les heures d'ouverture\\par
+}
+";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 0e853f31-9bbc-470d-be37-980525c9635d;
+					- _myState = 2048;
+					- _name = "BC3 - Op\érer durant les heures d_ouverture";
+					- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 BC3 - Op\\'e9rer durant les heures d'ouverture\\par
+}
+";
+					- _modifiedTimeWeak = 6.4.2017::19:55:38;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BC3 - Op\érer durant les heures d_ouverture";
+						- _id = GUID 46f39c48-ab67-48e9-b9f4-234de3e1329f;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 1f2a3023-01af-4367-ab24-11940ad4793c;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:13;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Le syst\\'e8me doit \\'eatre op\\'e9rationnel aux heures d'ouverture de l'AIP Lorrain dans le cadre des r\\'e9servations ADE.\\par
+}
+";
+			- reqID = "EC3";
+		}
+		{ IRequirement 
+			- _id = GUID 2b436554-b7b1-454c-85a6-d9cc945b3d9f;
+			- _myState = 8192;
+			- _name = "EC4 - Fournir la documentation pour le soutien";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 871c8375-867a-4e62-a70d-1485dd53cf23;
+					- _myState = 2048;
+					- _name = "BC4 - Fournir la documentation pour le soutien";
+					- _modifiedTimeWeak = 6.4.2017::19:36:59;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BC4 - Fournir la documentation pour le soutien";
+						- _id = GUID 77cb5a33-129c-4c90-b729-425cf650ea90;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 2f91504f-2799-496b-bb2d-5b2a515a3419;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:16;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La documentation n\\'e9cessaire au soutien (maintenance, ...) est fournie.\\par
+}
+";
+			- reqID = "EC4";
+		}
+		{ IRequirement 
+			- _id = GUID 0f1d740d-b828-44c4-a38b-49e856b1dbd6;
+			- _myState = 8192;
+			- _name = "EC5 - Utiliser l outil de mod\élisation MEGA";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID b31d6ba9-40d9-46b4-bfb3-31c5500cf998;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:21;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Lors de la conception et du d\\'e9veloppement du syst\\'e8me, l'outil MEGA sera utilis\\'e9 (mod\\'e9lisation UML2). Cf. PP Enseignants MISC.\\par
+}
+";
+			- reqID = "EC5";
+		}
+		{ IRequirement 
+			- _id = GUID db07742d-a889-428a-ac34-8e728a098d64;
+			- _myState = 8192;
+			- _name = "EC6 - D\évelopper en langage C++";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 95ea11d0-bd6b-4c1b-b773-35c706dba17c;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:24;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Pour les d\\'e9veloppements informatiques, le langage C++ est utilis\\'e9. Cf. PP Enseignants MISC.\\par
+}
+";
+			- reqID = "EC6";
+		}
+		{ IRequirement 
+			- _id = GUID 756ab0a0-1e10-4203-8033-7bed2b5f5ce0;
+			- _myState = 8192;
+			- _name = "EC7 - Respecter la norme ISO13482";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 8e897a40-b472-48fa-be51-950b3158bb88;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- _modifiedTimeWeak = 6.8.2017::11:50:27;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 La norme ISO13482 \"Robots et composants robotiques - Exigences de s\\'e9curit\\'e9 - Robots non m\\'e9dicaux pour les soins personnels\" sp\\'e9cifie les exigences et les recommandations pour la pr\\'e9vention intrins\\'e8que, ainsi que des mesures de protection et des informations pour l'utilisation des robots d'assistance \\'e0 la personne. Cf. AFNOR\\par
+}
+";
+			- reqID = "EC7";
+		}
+		{ IRequirement 
+			- _id = GUID a13e0f5b-4590-408d-b1cb-846c38634518;
+			- _myState = 8192;
+			- _name = "EC8 - Utiliser les postes informatiques des salles";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 2c7cab28-115d-4988-bc81-8addad3fac0b;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:31;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 R\\'e9aliser les demandes d'\\'e9change ou de commande \\'e0 partir des postes informatiques disponibles dans les salles de cours.\\par
+}
+";
+			- reqID = "EC8";
+		}
+		{ IRequirement 
+			- _id = GUID 47c74b1a-67b4-4d4e-8f94-80da1babfdfe;
+			- _myState = 8192;
+			- _name = "EC9 - Utiliser le poste informatique de la secr\étaire";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 53f4039d-9015-4f1c-99db-5651c7f2b790;
+					- _myState = 2048;
+					- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID 7e9556c7-1be8-4203-bd66-32f38bdcc996;
+						}
+					}
+					- _modifiedTimeWeak = 6.8.2017::11:50:36;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "package_0.sbs";
+						- _subsystem = "RequirementsDefinitionsPkg::package_0";
+						- _class = "";
+						- _name = "BS0 - Mettre a disposition des enseignants des feutres pour tableau blanc";
+						- _id = GUID fa8a37bd-4d60-4866-b509-e8d282bd346c;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.8.2017::11:50:43;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Utiliser le poste informatique disponible \\'e0 l'accueil pour les activit\\'e9s de la secr\\'e9taire.\\par
+}
+";
+			- reqID = "EC9";
+		}
+	}
+	- _modifiedTimeWeak = 6.8.2017::11:52:22;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+			- _myState = 8192;
+			- _name = "fromWord";
+			- _modifiedTimeWeak = 6.1.2017::6:26:9;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 5;
+				- value = "Requirement"; "Dependency"; "Package"; "HyperLink"; "Type"; 
+			}
+		}
+	}
+	- weakCGTime = 6.8.2017::11:52:22;
+	- strongCGTime = 6.1.2017::6:26:9;
+	- _defaultComposite = GUID 5ea26eda-05da-4f1b-94bf-ed5f23fea9bb;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 5ea26eda-05da-4f1b-94bf-ed5f23fea9bb;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 6.4.2017::19:55:38;
+			- weakCGTime = 6.4.2017::19:55:38;
+			- strongCGTime = 6.1.2017::6:26:9;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID 761dcc0e-f668-4aff-8a20-56425d2315cd;
+			- _myState = 8192;
+			- _name = "Word_Priority";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID fd6e450e-f5f8-4abb-9de0-558848619131;
+				}
+			}
+			- _modifiedTimeWeak = 6.1.2017::6:26:9;
+			- Literals = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IEnumerationLiteral 
+					- _id = GUID 154664ea-c4f0-4d80-b1d8-49a8daa79058;
+					- _name = "High";
+					- _modifiedTimeWeak = 6.1.2017::6:26:9;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 94463487-7e3f-4f21-ae77-16c8ec8c73d9;
+					- _name = "Medium";
+					- _modifiedTimeWeak = 6.1.2017::6:26:9;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 2eac8eec-fe5e-4f5c-9c3a-53e39b0b40bd;
+					- _name = "Low";
+					- _modifiedTimeWeak = 6.1.2017::6:26:9;
+					- _value = "";
+				}
+			}
+			- _kind = Enumeration;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+
